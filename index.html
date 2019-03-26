@@ -11,23 +11,42 @@
 </head>
 <body>
     
-    <div class="fixed">
-        <span>The Monkees</span>
-        <a href="#news">News</a>
-        <a href="#">Discography</a>
-        <a href="#band">Band Members</a>
-        <a href="#">Form</a>
+    <!--<div class="fixed">-->
+    <!--    <span>The Monkees</span>-->
+    <!--    <a href="#news">News</a>-->
+    <!--    <a href="#">Discography</a>-->
+    <!--    <a href="#band">Band Members</a>-->
+    <!--    <a href="#">Form</a>-->
         
-    </div>
+    <!--</div>-->
+   
+   <nav class="navbar navbar-light navbar-expand-sm fixed-top" style="background-color: #e3f2fd;">
+       <a href="#" class="navbar-brand"><span class="logo">The Monkees</span></a>
+      
+    
+       <ul class="navbar-nav mr-auto">
+           <li class="nav-item mr-2"><a class="nav-link" href="#">News</a></li>
+           <li class="nav-item mr-2"><a class="nav-link" href="#">Discography</a></li>
+           <li class="nav-item mr-2"><a class="nav-link" href="#">Band Members</a></li>
+           <li class="nav-item mr-2 d-block d-sm-none"><a class="nav-link" href="#">Sign In / Sign Up</a></li>
+           
+           
+       </ul>
+       
+       <div class="d-none d-md-block">
+       <a href="#" class="my-auto mr-2">Sign In / Sign Up</a>
+       </div>
 
+   </nav>
+ 
     <!--<header><h1>The Monkees</h1></header>-->
     
-    <main>
+    <div id="video-container">
         <video controls autoplay muted loop>
           <source src="assets/video/TheMonkees.mp4" type="video/mp4">
           <!--Your browser does not support the video tag.-->
         </video>
-    </main>
+    </div>
     
     <div id="news" class="news">
         <h2>News</h2>
@@ -92,6 +111,8 @@
     <!--    </figure> -->
     
     <!--</div>-->
+    
+    
     
     <div id="band" class="band container-fluid">
         
@@ -262,6 +283,8 @@
  
         
     </footer>
+    
+<script> </script><!--included to fix chrome bug that causes hover script to fire on page load-->
     
 </body>
 </html>
