@@ -12,12 +12,15 @@
 <body>
     
     <div class="fixed">
-        <a href="#disc">Discography</a>
+        <span>The Monkees</span>
+        <a href="#news">News</a>
+        <a href="#">Discography</a>
         <a href="#band">Band Members</a>
-        <a href="#form">Form</a>
+        <a href="#">Form</a>
+        
     </div>
 
-    <header><h1>The Monkees</h1></header>
+    <!--<header><h1>The Monkees</h1></header>-->
     
     <main>
         <video controls autoplay muted loop>
@@ -26,69 +29,237 @@
         </video>
     </main>
     
-    <div class="news">
+    <div id="news" class="news">
         <h2>News</h2>
+        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+            sed diam nonummy nibh euismod tincidunt ut laoreet dolore
+            magna aliquam erat volutpat. Ut wisi enim ad minim veniam,
+            quis nostrud exerci tation ullamcorper suscipit lobortis nisl
+            ut aliquip ex ea commodo consequat. Duis autem vel eum iriure
+            dolor in hendrerit in vulputate velit esse molestie consequat,
+            vel illum dolore eu feugiat nulla facilisis at vero eros et
+            accumsan et iusto odio dignissim qui blandit praesent luptatum
+            zzril delenit augue duis dolore te feugait nulla facilisi.
+            Nam liber tempor cum soluta nobis eleifend option congue
+            nihil imperdiet doming id quod mazim placerat facer possim
+            assum. </p>
+            <br>
+            
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+            sed diam nonummy nibh euismod tincidunt ut laoreet dolore
+            magna aliquam erat volutpat. Ut wisi enim ad minim veniam,
+            quis nostrud exerci tation ullamcorper suscipit lobortis nisl
+            ut aliquip ex ea commodo consequat. </p>
+            <br>
+            
+            <p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat,
+            vel illum dolore eu feugiat nulla facilisis at vero eros et
+            accumsan et iusto odio dignissim qui blandit praesent luptatum
+            zzril delenit augue duis dolore te feugait nulla facilisi.
+            Nam liber tempor cum soluta nobis eleifend option congue
+            nihil imperdiet doming id quod mazim placerat facer possim
+            assum. </p>
+            <br>
+            
     </div>
     
-    <div id="disc" class="disc">
-        <h2>Discography</h2>
-        <img src="assets/images/album.jpg" alt="">
+    <!--<div id="disc" class="disc">-->
+    <!--    <h2>Discography</h2>-->
+    <!--    <img src="assets/images/album.jpg" alt="">-->
         <!--<img src="assets/images/album2.jpg" alt=""> need to be resized--> 
-        <img src="assets/images/cover.jpg" alt="">
-        <img src="assets/images/cover1.jpg" alt="">
-        <img src="assets/images/cover2.jpg" alt="">
-        <img src="assets/images/cover3.jpg" alt="">
-        <!--horizontal scroll?-->
-        <figure>
-            <figcaption>Listen to Clarksville</figcaption>
-            <audio controls src="assets/audio/Clarksville.mp3">Oops! Your browser does not support the <code>audio</code> element.</audio>
-        </figure>  
+    <!--    <img src="assets/images/cover.jpg" alt="">-->
+    <!--    <img src="assets/images/cover1.jpg" alt="">-->
+    <!--    <img src="assets/images/cover2.jpg" alt="">-->
+    <!--    <img src="assets/images/cover3.jpg" alt="">-->
+    <!--    <figure>-->
+    <!--        <figcaption>Listen to Clarksville</figcaption>-->
+    <!--        <audio controls src="assets/audio/Clarksville.mp3">Oops! Your browser does not support the <code>audio</code> element.</audio>-->
+    <!--    </figure>  -->
         
-        <figure>
-            <figcaption>Listen to Daydream Believer</figcaption>
-            <audio controls src="assets/audio/DaydreamBeliever.mp3">Oops! Your browser does not support the <code>audio</code> element.</audio>
-        </figure> 
+    <!--    <figure>-->
+    <!--        <figcaption>Listen to Daydream Believer</figcaption>-->
+    <!--        <audio controls src="assets/audio/DaydreamBeliever.mp3">Oops! Your browser does not support the <code>audio</code> element.</audio>-->
+    <!--    </figure> -->
         
-        <figure>
-            <figcaption>Listen to I'm a Believer</figcaption>
-            <audio controls src="assets/audio/ImABeliever.mp3">Oops! Your browser does not support the <code>audio</code> element.</audio>
-        </figure> 
+    <!--    <figure>-->
+    <!--        <figcaption>Listen to I'm a Believer</figcaption>-->
+    <!--        <audio controls src="assets/audio/ImABeliever.mp3">Oops! Your browser does not support the <code>audio</code> element.</audio>-->
+    <!--    </figure> -->
         
-        <figure>
-            <figcaption>Listen to Stepping Stone</figcaption>
-            <audio controls src="assets/audio/SteppingStone.mp3">Oops! Your browser does not support the <code>audio</code> element.</audio>
-        </figure> 
+    <!--    <figure>-->
+    <!--        <figcaption>Listen to Stepping Stone</figcaption>-->
+    <!--        <audio controls src="assets/audio/SteppingStone.mp3">Oops! Your browser does not support the <code>audio</code> element.</audio>-->
+    <!--    </figure> -->
     
-    </div>
+    <!--</div>-->
     
-    <div id="band" class="band">
-        <h2>The Band</h2>
-        <img class="member" src="assets/images/dj.jpg" alt="Davy Jones">
-        <img class="member" src="assets/images/md.jpg" alt="Mickey Dolenz">
-        <img class="member" src="assets/images/mn.jpg" alt="Michael Nesmith">
-        <img class="member" src="assets/images/pt.jpg" alt="Peter Tork">
-        <img class="member" src="assets/images/band.jpg" alt="">
-    </div>
-    
-    <div id="form" class="form">
-        <h2>Bookings</h2>
+    <div id="band" class="band container-fluid">
+        
+        <div class="row">
+            <div class="col"><h2>The Band</h2></div>
+        </div>
+        
+        <div class="row">
+            <div class="col-12 col-md-6"><img class="member" src="assets/images/dj.jpg" alt="Davy Jones"></div>
+            <div class="col-12 col-md-6">All about Dave: Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+            sed diam nonummy nibh euismod tincidunt ut laoreet dolore
+            magna aliquam erat volutpat. Ut wisi enim ad minim veniam,
+            quis nostrud exerci tation ullamcorper suscipit lobortis nisl
+            ut aliquip ex ea commodo consequat. Duis autem vel eum iriure
+            dolor in hendrerit in vulputate velit esse molestie consequat,
+            vel illum dolore eu feugiat nulla facilisis at vero eros et
+            accumsan et iusto odio dignissim qui blandit praesent luptatum
+            zzril delenit augue duis dolore te feugait nulla facilisi.
+            Nam liber tempor cum soluta nobis eleifend option congue
+            nihil imperdiet doming id quod mazim placerat facer possim
+            assum. 
+            <hr>
+            </div>
+            
+        </div>
+        <div class="row">
+            <div class="col-12 col-md-6 medium-only">All about Mickey: Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+            sed diam nonummy nibh euismod tincidunt ut laoreet dolore
+            magna aliquam erat volutpat. Ut wisi enim ad minim veniam,
+            quis nostrud exerci tation ullamcorper suscipit lobortis nisl
+            ut aliquip ex ea commodo consequat. Duis autem vel eum iriure
+            dolor in hendrerit in vulputate velit esse molestie consequat,
+            vel illum dolore eu feugiat nulla facilisis at vero eros et
+            accumsan et iusto odio dignissim qui blandit praesent luptatum
+            zzril delenit augue duis dolore te feugait nulla facilisi.
+            Nam liber tempor cum soluta nobis eleifend option congue
+            nihil imperdiet doming id quod mazim placerat facer possim
+            assum. 
+            <hr>
+            </div>
+            <div class="col-12 col-md-6"><img class="member" src="assets/images/md.jpg" alt="Mickey Dolenz"></div>
+            <div class="col-12 col-md-6 mobile-only">All about Mickey: Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+            sed diam nonummy nibh euismod tincidunt ut laoreet dolore
+            magna aliquam erat volutpat. Ut wisi enim ad minim veniam,
+            quis nostrud exerci tation ullamcorper suscipit lobortis nisl
+            ut aliquip ex ea commodo consequat. Duis autem vel eum iriure
+            dolor in hendrerit in vulputate velit esse molestie consequat,
+            vel illum dolore eu feugiat nulla facilisis at vero eros et
+            accumsan et iusto odio dignissim qui blandit praesent luptatum
+            zzril delenit augue duis dolore te feugait nulla facilisi.
+            Nam liber tempor cum soluta nobis eleifend option congue
+            nihil imperdiet doming id quod mazim placerat facer possim
+            assum. 
+            <hr>
+            </div>
+            
+            
+        </div>
+        <div class="row">
+            <div class="col-12 col-md-6"><img class="member" src="assets/images/mn.jpg" alt="Michael Nesmith"></div>
+            <div class="col-12 col-md-6">All about Michael: Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+            sed diam nonummy nibh euismod tincidunt ut laoreet dolore
+            magna aliquam erat volutpat. Ut wisi enim ad minim veniam,
+            quis nostrud exerci tation ullamcorper suscipit lobortis nisl
+            ut aliquip ex ea commodo consequat. Duis autem vel eum iriure
+            dolor in hendrerit in vulputate velit esse molestie consequat,
+            vel illum dolore eu feugiat nulla facilisis at vero eros et
+            accumsan et iusto odio dignissim qui blandit praesent luptatum
+            zzril delenit augue duis dolore te feugait nulla facilisi.
+            Nam liber tempor cum soluta nobis eleifend option congue
+            nihil imperdiet doming id quod mazim placerat facer possim
+            assum. 
+            <hr>
+            </div>
+            
+        </div>
+        
+        <div class="row">
+            <div class="col-12 col-md-6 medium-only">All about Peter: Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+            sed diam nonummy nibh euismod tincidunt ut laoreet dolore
+            magna aliquam erat volutpat. Ut wisi enim ad minim veniam,
+            quis nostrud exerci tation ullamcorper suscipit lobortis nisl
+            ut aliquip ex ea commodo consequat. Duis autem vel eum iriure
+            dolor in hendrerit in vulputate velit esse molestie consequat,
+            vel illum dolore eu feugiat nulla facilisis at vero eros et
+            accumsan et iusto odio dignissim qui blandit praesent luptatum
+            zzril delenit augue duis dolore te feugait nulla facilisi.
+            Nam liber tempor cum soluta nobis eleifend option congue
+            nihil imperdiet doming id quod mazim placerat facer possim
+            assum. 
+            <hr>
+            </div>
+            <div class="col-12 col-md-6"><img class="member" src="assets/images/pt.jpg" alt="Peter Tork"></div>
+            <div class="col-12 col-md-6 mobile-only">All about Peter: Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+            sed diam nonummy nibh euismod tincidunt ut laoreet dolore
+            magna aliquam erat volutpat. Ut wisi enim ad minim veniam,
+            quis nostrud exerci tation ullamcorper suscipit lobortis nisl
+            ut aliquip ex ea commodo consequat. Duis autem vel eum iriure
+            dolor in hendrerit in vulputate velit esse molestie consequat,
+            vel illum dolore eu feugiat nulla facilisis at vero eros et
+            accumsan et iusto odio dignissim qui blandit praesent luptatum
+            zzril delenit augue duis dolore te feugait nulla facilisi.
+            Nam liber tempor cum soluta nobis eleifend option congue
+            nihil imperdiet doming id quod mazim placerat facer possim
+            assum. 
+            <hr>
+            </div>
+            
+            
+        </div>
+        
+        <div class="row">
+            <div class="col-12 col-md-6"><img class="member" src="assets/images/band.jpg" alt=""></div>
+            <div class="col-12 col-md-6">Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+            sed diam nonummy nibh euismod tincidunt ut laoreet dolore
+            magna aliquam erat volutpat. Ut wisi enim ad minim veniam,
+            quis nostrud exerci tation ullamcorper suscipit lobortis nisl
+            ut aliquip ex ea commodo consequat. Duis autem vel eum iriure
+            dolor in hendrerit in vulputate velit esse molestie consequat,
+            vel illum dolore eu feugiat nulla facilisis at vero eros et
+            accumsan et iusto odio dignissim qui blandit praesent luptatum
+            zzril delenit augue duis dolore te feugait nulla facilisi.
+            Nam liber tempor cum soluta nobis eleifend option congue
+            nihil imperdiet doming id quod mazim placerat facer possim
+            assum. </div>
+            
+        </div>
         
         <!--<img src="assets/images/monkees.jpg" alt=""> need to be resized-->
-        
-       <form>
-           <input type="email" id="email"  name="email" placeholder="email" required><br>
-           <input type="checkbox" name="newsletter" value="newsletter">Tick if you want to sign up to our mailing list for all the latest updates and exclusive offers!<br>
-           <input type="submit" value="Submit"/>
-           
-       </form>
-       
+    
     </div>
     
-    <footer>
-        <h2>Social Media</h2>
-        <a href="#" target="_blank">Facebook</a>
-        <a href="#" target="_blank">Twitter</a>
-        <a href="#" target="_blank">Youtube</a>
+    <!--<div id="form" class="form">-->
+    <!--    <h2>Bookings</h2>-->
+        
+    
+        
+    <!--   <form>-->
+    <!--       <input type="email" id="email"  name="email" placeholder="email" required><br>-->
+    <!--       <input type="checkbox" name="newsletter" value="newsletter">Tick if you want to sign up to our mailing list for all the latest updates and exclusive offers!<br>-->
+    <!--       <input type="submit" value="Submit"/>-->
+           
+    <!--   </form>-->
+       
+    <!--</div>-->
+    
+    <footer class="container-fluid">
+        <div class="row">
+            <div class="col-sm-4">
+                <h2>Social Media</h2>
+                    <a href="#" target="_blank">Facebook</a>
+                    <a href="#" target="_blank">Twitter</a>
+                    <a href="#" target="_blank">Youtube</a>
+            </div>
+            <div class="col-sm-4">
+                <h2>Social Media</h2>
+                    <a href="#" target="_blank">Facebook</a>
+                    <a href="#" target="_blank">Twitter</a>
+                    <a href="#" target="_blank">Youtube</a>
+            </div>
+            <div class="col-sm-4">
+                <h2>Social Media</h2>
+                    <a href="#" target="_blank">Facebook</a>
+                    <a href="#" target="_blank">Twitter</a>
+                    <a href="#" target="_blank">Youtube</a>
+            </div>
+        </div>
+ 
         
     </footer>
     

@@ -30,9 +30,9 @@ h1, h2 {
     margin: 0; /*removes white space below element*/
 }
 
-div {
-    color: #fafafa;
-}
+/*div {*/
+/*    color: #fafafa;*/
+/*}*/
 
 video{
     display: block;
@@ -42,6 +42,7 @@ video{
 
 .news {
     background-color: #415ce2;
+    padding: 25px;
 }
 
 .disc {
@@ -54,6 +55,7 @@ video{
 
 .band {
     background-color: #f4f47b;
+    color: blue;
 }
 
 .member {
@@ -61,16 +63,35 @@ video{
 }
 
 .fixed {
-      position: fixed;
+      /*position: fixed;*/
       background-color: orange;
       width: 100%;
       height: 50px;
     }
     
-figure {
+figure, p {
     margin: 0;
 }
 
 a {
     color: #fafafa;
+}
+
+#band>div {
+    padding: 25px;
+}
+
+
+
+@media(min-width: 768px){
+    .mobile-only {
+        display: none;
+    }
+    
+}
+
+@media(max-width: 768px){
+    .medium-only {
+    display: none;
+ }
 }
