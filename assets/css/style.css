@@ -14,6 +14,7 @@
 
 .logo {
     font-family: 'Monoton', cursive;
+    color: #fafafa;
 }
 
 h2 {
@@ -34,17 +35,19 @@ h1, h2 {
     margin: 0; /*removes white space below element*/
 }
 
-/*div {*/
-/*    color: #fafafa;*/
-/*}*/
-
-
-
 video{
-    display: block;
+    
     width: 100%;
     height: auto;
 
+}
+
+.member {
+    display: block;
+    border-radius: 10px;
+    width: 70%;
+    height: auto;
+    margin: auto;
 }
 
 .news {
@@ -65,32 +68,40 @@ video{
     color: blue;
 }
 
-.member {
-    display: block;
+/*.member {*/
+/*    display: block;*/
+/*}*/
+
+.navbar {
+    /*position: fixed;*/
+    /*background-color: rgba(227, 242, 253, 0.2);*/
+    background-color: #e3f2fd;
+    /*width: 100%;*/
 }
 
-.fixed {
-      /*position: fixed;*/
-      background-color: orange;
-      width: 100%;
-      height: 50px;
-    }
+
+
+/*.navbar-light .navbar-nav .nav-link {*/
+/*    color: #fafafa;*/
+/*}*/
+
+
     
 figure, p {
     margin: 0;
 }
 
-/*a {*/
-/*    color: #fafafa;*/
-/*}*/
+
 
 #band>div {
     padding: 25px;
 }
 
-/*video-container*/
+
 
 /* Navbar */
+
+
 
 
 
@@ -112,3 +123,13 @@ figure, p {
     display: none;
  }
 }
+
+.cover {
+    width: 100%;
+    height: auto;
+}
+
+.space {
+    padding-bottom: 20px;
+}
+

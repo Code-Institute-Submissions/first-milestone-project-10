@@ -4,28 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"/>
+    <!--<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"/>-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
     <link href="https://fonts.googleapis.com/css?family=Roboto|Monoton" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css"/>
+    
     <title>The Monkees</title>
 </head>
 <body>
     
-    <!--<div class="fixed">-->
-    <!--    <span>The Monkees</span>-->
-    <!--    <a href="#news">News</a>-->
-    <!--    <a href="#">Discography</a>-->
-    <!--    <a href="#band">Band Members</a>-->
-    <!--    <a href="#">Form</a>-->
-        
-    <!--</div>-->
-   
-   <nav class="navbar navbar-light navbar-expand-sm fixed-top" style="background-color: #e3f2fd;">
+      <nav class="navbar navbar-light navbar-expand-sm"> <!--add fixed to make it stick-->
+
        <a href="#" class="navbar-brand"><span class="logo">The Monkees</span></a>
+       
+       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button> 
       
-    
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
        <ul class="navbar-nav mr-auto">
-           <li class="nav-item mr-2"><a class="nav-link" href="#">News</a></li>
+           <li class="nav-item mr-2 active"><a class="nav-link" href="#">News</a></li>
            <li class="nav-item mr-2"><a class="nav-link" href="#">Discography</a></li>
            <li class="nav-item mr-2"><a class="nav-link" href="#">Band Members</a></li>
            <li class="nav-item mr-2 d-block d-sm-none"><a class="nav-link" href="#">Sign In / Sign Up</a></li>
@@ -33,20 +32,19 @@
            
        </ul>
        
+      </div>
+       
        <div class="d-none d-md-block">
        <a href="#" class="my-auto mr-2">Sign In / Sign Up</a>
        </div>
 
    </nav>
- 
-    <!--<header><h1>The Monkees</h1></header>-->
     
-    <div id="video-container">
-        <video controls autoplay muted loop>
-          <source src="assets/video/TheMonkees.mp4" type="video/mp4">
-          <!--Your browser does not support the video tag.-->
-        </video>
+    
+    <div>
+        <img class="cover" src="assets/images/monkees.jpg"></img>
     </div>
+
     
     <div id="news" class="news">
         <h2>News</h2>
@@ -114,6 +112,7 @@
     
     
     
+    
     <div id="band" class="band container-fluid">
         
         <div class="row">
@@ -121,7 +120,7 @@
         </div>
         
         <div class="row">
-            <div class="col-12 col-md-6"><img class="member" src="assets/images/dj.jpg" alt="Davy Jones"></div>
+            <div class="col-12 col-md-6 space"><img class="member" src="assets/images/dj.jpg" alt="Davy Jones"></div>
             <div class="col-12 col-md-6">All about Dave: Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
             sed diam nonummy nibh euismod tincidunt ut laoreet dolore
             magna aliquam erat volutpat. Ut wisi enim ad minim veniam,
@@ -131,9 +130,7 @@
             vel illum dolore eu feugiat nulla facilisis at vero eros et
             accumsan et iusto odio dignissim qui blandit praesent luptatum
             zzril delenit augue duis dolore te feugait nulla facilisi.
-            Nam liber tempor cum soluta nobis eleifend option congue
-            nihil imperdiet doming id quod mazim placerat facer possim
-            assum. 
+           
             <hr>
             </div>
             
@@ -148,12 +145,10 @@
             vel illum dolore eu feugiat nulla facilisis at vero eros et
             accumsan et iusto odio dignissim qui blandit praesent luptatum
             zzril delenit augue duis dolore te feugait nulla facilisi.
-            Nam liber tempor cum soluta nobis eleifend option congue
-            nihil imperdiet doming id quod mazim placerat facer possim
-            assum. 
+            
             <hr>
             </div>
-            <div class="col-12 col-md-6"><img class="member" src="assets/images/md.jpg" alt="Mickey Dolenz"></div>
+            <div class="col-12 col-md-6 space"><img class="member" src="assets/images/md.jpg" alt="Mickey Dolenz"></div>
             <div class="col-12 col-md-6 mobile-only">All about Mickey: Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
             sed diam nonummy nibh euismod tincidunt ut laoreet dolore
             magna aliquam erat volutpat. Ut wisi enim ad minim veniam,
@@ -163,16 +158,14 @@
             vel illum dolore eu feugiat nulla facilisis at vero eros et
             accumsan et iusto odio dignissim qui blandit praesent luptatum
             zzril delenit augue duis dolore te feugait nulla facilisi.
-            Nam liber tempor cum soluta nobis eleifend option congue
-            nihil imperdiet doming id quod mazim placerat facer possim
-            assum. 
+            
             <hr>
             </div>
             
             
         </div>
         <div class="row">
-            <div class="col-12 col-md-6"><img class="member" src="assets/images/mn.jpg" alt="Michael Nesmith"></div>
+            <div class="col-12 col-md-6 space"><img class="member" src="assets/images/mn.jpg" alt="Michael Nesmith"></div>
             <div class="col-12 col-md-6">All about Michael: Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
             sed diam nonummy nibh euismod tincidunt ut laoreet dolore
             magna aliquam erat volutpat. Ut wisi enim ad minim veniam,
@@ -182,9 +175,7 @@
             vel illum dolore eu feugiat nulla facilisis at vero eros et
             accumsan et iusto odio dignissim qui blandit praesent luptatum
             zzril delenit augue duis dolore te feugait nulla facilisi.
-            Nam liber tempor cum soluta nobis eleifend option congue
-            nihil imperdiet doming id quod mazim placerat facer possim
-            assum. 
+            
             <hr>
             </div>
             
@@ -200,12 +191,10 @@
             vel illum dolore eu feugiat nulla facilisis at vero eros et
             accumsan et iusto odio dignissim qui blandit praesent luptatum
             zzril delenit augue duis dolore te feugait nulla facilisi.
-            Nam liber tempor cum soluta nobis eleifend option congue
-            nihil imperdiet doming id quod mazim placerat facer possim
-            assum. 
+             
             <hr>
             </div>
-            <div class="col-12 col-md-6"><img class="member" src="assets/images/pt.jpg" alt="Peter Tork"></div>
+            <div class="col-12 col-md-6 space"><img class="member" src="assets/images/pt.jpg" alt="Peter Tork"></div>
             <div class="col-12 col-md-6 mobile-only">All about Peter: Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
             sed diam nonummy nibh euismod tincidunt ut laoreet dolore
             magna aliquam erat volutpat. Ut wisi enim ad minim veniam,
@@ -215,9 +204,7 @@
             vel illum dolore eu feugiat nulla facilisis at vero eros et
             accumsan et iusto odio dignissim qui blandit praesent luptatum
             zzril delenit augue duis dolore te feugait nulla facilisi.
-            Nam liber tempor cum soluta nobis eleifend option congue
-            nihil imperdiet doming id quod mazim placerat facer possim
-            assum. 
+             
             <hr>
             </div>
             
@@ -225,7 +212,7 @@
         </div>
         
         <div class="row">
-            <div class="col-12 col-md-6"><img class="member" src="assets/images/band.jpg" alt=""></div>
+            <div class="col-12 col-md-6 space"><img class="member" src="assets/images/band.jpg" alt=""></div>
             <div class="col-12 col-md-6">Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
             sed diam nonummy nibh euismod tincidunt ut laoreet dolore
             magna aliquam erat volutpat. Ut wisi enim ad minim veniam,
@@ -235,29 +222,40 @@
             vel illum dolore eu feugiat nulla facilisis at vero eros et
             accumsan et iusto odio dignissim qui blandit praesent luptatum
             zzril delenit augue duis dolore te feugait nulla facilisi.
-            Nam liber tempor cum soluta nobis eleifend option congue
-            nihil imperdiet doming id quod mazim placerat facer possim
-            assum. </div>
+            </div>
+            
+            
+            
+        </div>
+            
+                <div class="row">
+                    <div class="col-12">
+                         
+                         <video controls autoplay muted loop>
+                              <source src="assets/video/TheMonkees.mp4" type="video/mp4">
+                              Your browser does not support the video tag.
+                         </video>
+                     </div>
+                </div>
             
         </div>
         
-        <!--<img src="assets/images/monkees.jpg" alt=""> need to be resized-->
     
     </div>
     
-    <!--<div id="form" class="form">-->
-    <!--    <h2>Bookings</h2>-->
+    <div id="form" class="form">
+        <h2>Bookings</h2>
         
     
         
-    <!--   <form>-->
-    <!--       <input type="email" id="email"  name="email" placeholder="email" required><br>-->
-    <!--       <input type="checkbox" name="newsletter" value="newsletter">Tick if you want to sign up to our mailing list for all the latest updates and exclusive offers!<br>-->
-    <!--       <input type="submit" value="Submit"/>-->
+       <form>
+           <input type="email" id="email"  name="email" placeholder="email" required><br>
+           <input type="checkbox" name="newsletter" value="newsletter">Tick if you want to sign up to our mailing list for all the latest updates and exclusive offers!<br>
+           <input type="submit" value="Submit"/>
            
-    <!--   </form>-->
+       </form>
        
-    <!--</div>-->
+    </div>
     
     <footer class="container-fluid">
         <div class="row">
@@ -284,7 +282,10 @@
         
     </footer>
     
-<script> </script><!--included to fix chrome bug that causes hover script to fire on page load-->
-    
+<!--<script> </script><!--included to fix chrome bug that causes hover script to fire on page load-->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+ <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 </body>
 </html>
