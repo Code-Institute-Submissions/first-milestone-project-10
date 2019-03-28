@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <!--<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"/>-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
     <link href="https://fonts.googleapis.com/css?family=Roboto|Monoton" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css"/>
     
@@ -24,18 +24,45 @@
       
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
        <ul class="navbar-nav mr-auto">
-           <li class="nav-item mr-2 active"><a class="nav-link" href="#">News</a></li>
-           <li class="nav-item mr-2"><a class="nav-link" href="#">Discography</a></li>
-           <li class="nav-item mr-2"><a class="nav-link" href="#">Band Members</a></li>
-           <li class="nav-item mr-2 d-block d-sm-none"><a class="nav-link" href="#">Sign In / Sign Up</a></li>
+           <li class="nav-item mr-2 active"><a class="nav-link" href="news">News</a></li>
+           <li class="nav-item mr-2"><a class="nav-link" href="disc">Discography</a></li>
+           <li class="nav-item mr-2"><a class="nav-link" href="band">Band Members</a></li>
+           <li class="nav-item mr-2 d-block d-sm-none"><a class="nav-link" href="#">Facebook</a></li>
+           <li class="nav-item mr-2 d-block d-sm-none"><a class="nav-link" href="#">Twitter</a></li>
+           <li class="nav-item mr-2 d-block d-sm-none"><a class="nav-link" href="#">Youtube</a></li>
            
            
        </ul>
        
       </div>
+      
+      
        
-       <div class="d-none d-md-block">
-       <a href="#" class="my-auto mr-2">Sign In / Sign Up</a>
+       <div class="d-none d-md-block social-media">
+       <!--<a href="#" class="my-auto mr-2">Sign In / Sign Up</a>-->
+       <ul class="list-inline social-links">
+                    <li class="list-inline-item">
+                        <a target="_blank" href="#">
+                            <i class="fa fa-facebook" aria-hidden="true"></i>
+                            <span class="sr-only">Facebook</span>
+                        </a>
+                    </li>
+                     <li class="list-inline-item">
+                        <a target="_blank" href="#">
+                            <i class="fa fa-twitter" aria-hidden="true"></i>
+                            <span class="sr-only">Twitter</span>
+                        </a>
+                    </li>
+                    
+                     
+                     
+                     <li class="list-inline-item">
+                        <a target="_blank" href="#">
+                            <i class="fa fa-youtube" aria-hidden="true"></i>
+                            <span class="sr-only">Youtube </span>
+                        </a>
+                    </li>
+                </ul>
        </div>
 
    </nav>
@@ -47,7 +74,7 @@
 
     
     <div id="news" class="news">
-        <h2>News</h2>
+        <h2>Who are the Monkees?</h2>
         <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
             sed diam nonummy nibh euismod tincidunt ut laoreet dolore
             magna aliquam erat volutpat. Ut wisi enim ad minim veniam,
@@ -69,46 +96,66 @@
             ut aliquip ex ea commodo consequat. </p>
             <br>
             
-            <p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat,
-            vel illum dolore eu feugiat nulla facilisis at vero eros et
-            accumsan et iusto odio dignissim qui blandit praesent luptatum
-            zzril delenit augue duis dolore te feugait nulla facilisi.
-            Nam liber tempor cum soluta nobis eleifend option congue
-            nihil imperdiet doming id quod mazim placerat facer possim
-            assum. </p>
-            <br>
+
             
     </div>
     
-    <!--<div id="disc" class="disc">-->
-    <!--    <h2>Discography</h2>-->
+    <div id="disc" class="disc">
+        <h2>Latest Releases</h2>
     <!--    <img src="assets/images/album.jpg" alt="">-->
         <!--<img src="assets/images/album2.jpg" alt=""> need to be resized--> 
-    <!--    <img src="assets/images/cover.jpg" alt="">-->
-    <!--    <img src="assets/images/cover1.jpg" alt="">-->
-    <!--    <img src="assets/images/cover2.jpg" alt="">-->
-    <!--    <img src="assets/images/cover3.jpg" alt="">-->
-    <!--    <figure>-->
-    <!--        <figcaption>Listen to Clarksville</figcaption>-->
-    <!--        <audio controls src="assets/audio/Clarksville.mp3">Oops! Your browser does not support the <code>audio</code> element.</audio>-->
-    <!--    </figure>  -->
         
-    <!--    <figure>-->
-    <!--        <figcaption>Listen to Daydream Believer</figcaption>-->
-    <!--        <audio controls src="assets/audio/DaydreamBeliever.mp3">Oops! Your browser does not support the <code>audio</code> element.</audio>-->
-    <!--    </figure> -->
         
-    <!--    <figure>-->
-    <!--        <figcaption>Listen to I'm a Believer</figcaption>-->
-    <!--        <audio controls src="assets/audio/ImABeliever.mp3">Oops! Your browser does not support the <code>audio</code> element.</audio>-->
-    <!--    </figure> -->
         
-    <!--    <figure>-->
-    <!--        <figcaption>Listen to Stepping Stone</figcaption>-->
-    <!--        <audio controls src="assets/audio/SteppingStone.mp3">Oops! Your browser does not support the <code>audio</code> element.</audio>-->
-    <!--    </figure> -->
+        <div class="songs">
+        <figure class="one">
+            <figcaption><img src="assets/images/cover.jpg" alt="Listen to Clarksville"></figcaption>
+            <audio controls src="assets/audio/Clarksville.mp3">Oops! Your browser does not support the <code>audio</code> element.</audio>
+        </figure>  
+        
+        <figure class="two">
+            <figcaption><img src="assets/images/cover1.jpg" alt="Listen to Daydream Believer"></figcaption>
+            <audio controls src="assets/audio/DaydreamBeliever.mp3">Oops! Your browser does not support the <code>audio</code> element.</audio>
+        </figure> 
+        
+        <figure class="three">
+            <figcaption ><img  src="assets/images/cover2.png" alt="Listen to I'm a Believer"></figcaption>
+            <audio controls src="assets/audio/ImABeliever.mp3">Oops! Your browser does not support the <code>audio</code> element.</audio>
+        </figure> 
+        
+        <figure class="four">
+            <figcaption><img src="assets/images/cover3.jpg" alt="Listen to Stepping Stone"></figcaption>
+            <audio controls src="assets/audio/SteppingStone.mp3">Oops! Your browser does not support the <code>audio</code> element.</audio>
+        </figure> 
+        </div>
     
-    <!--</div>-->
+    </div>
+    <h2>Coming Soon...</h2>
+    
+        <section id="disc">
+        
+        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img class="d-block w-100" src="assets/images/album.jpg" alt="First slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="assets/images/album2.jpg" alt="Second slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="assets/images/cover3.jpg" alt="Third slide">
+            </div>
+            </div>
+              <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
+        </div>
+    </section>
     
     
     
@@ -121,7 +168,9 @@
         
         <div class="row">
             <div class="col-12 col-md-6 space"><img class="member" src="assets/images/dj.jpg" alt="Davy Jones"></div>
-            <div class="col-12 col-md-6">All about Dave: Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+            <div class="col-12 col-md-6">
+            <h3>Davy Jones</h3>
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
             sed diam nonummy nibh euismod tincidunt ut laoreet dolore
             magna aliquam erat volutpat. Ut wisi enim ad minim veniam,
             quis nostrud exerci tation ullamcorper suscipit lobortis nisl
@@ -129,83 +178,93 @@
             dolor in hendrerit in vulputate velit esse molestie consequat,
             vel illum dolore eu feugiat nulla facilisis at vero eros et
             accumsan et iusto odio dignissim qui blandit praesent luptatum
-            zzril delenit augue duis dolore te feugait nulla facilisi.
+            zzril delenit augue duis dolore te feugait nulla facilisi.</p>
            
-            <hr>
+            <hr class="medium-only">
             </div>
             
         </div>
         <div class="row">
-            <div class="col-12 col-md-6 medium-only">All about Mickey: Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
-            sed diam nonummy nibh euismod tincidunt ut laoreet dolore
-            magna aliquam erat volutpat. Ut wisi enim ad minim veniam,
-            quis nostrud exerci tation ullamcorper suscipit lobortis nisl
-            ut aliquip ex ea commodo consequat. Duis autem vel eum iriure
-            dolor in hendrerit in vulputate velit esse molestie consequat,
-            vel illum dolore eu feugiat nulla facilisis at vero eros et
-            accumsan et iusto odio dignissim qui blandit praesent luptatum
-            zzril delenit augue duis dolore te feugait nulla facilisi.
+            <div class="col-12 col-md-6 medium-only">
+                <h3>Mickey Dolenz</h3>
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+                sed diam nonummy nibh euismod tincidunt ut laoreet dolore
+                magna aliquam erat volutpat. Ut wisi enim ad minim veniam,
+                quis nostrud exerci tation ullamcorper suscipit lobortis nisl
+                ut aliquip ex ea commodo consequat. Duis autem vel eum iriure
+                dolor in hendrerit in vulputate velit esse molestie consequat,
+                vel illum dolore eu feugiat nulla facilisis at vero eros et
+                accumsan et iusto odio dignissim qui blandit praesent luptatum
+                zzril delenit augue duis dolore te feugait nulla facilisi.</p>
             
             <hr>
             </div>
             <div class="col-12 col-md-6 space"><img class="member" src="assets/images/md.jpg" alt="Mickey Dolenz"></div>
-            <div class="col-12 col-md-6 mobile-only">All about Mickey: Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
-            sed diam nonummy nibh euismod tincidunt ut laoreet dolore
-            magna aliquam erat volutpat. Ut wisi enim ad minim veniam,
-            quis nostrud exerci tation ullamcorper suscipit lobortis nisl
-            ut aliquip ex ea commodo consequat. Duis autem vel eum iriure
-            dolor in hendrerit in vulputate velit esse molestie consequat,
-            vel illum dolore eu feugiat nulla facilisis at vero eros et
-            accumsan et iusto odio dignissim qui blandit praesent luptatum
-            zzril delenit augue duis dolore te feugait nulla facilisi.
+            <div class="col-12 col-md-6 mobile-only">
+                <h3>Mickey Dolenz</h3>
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+                sed diam nonummy nibh euismod tincidunt ut laoreet dolore
+                magna aliquam erat volutpat. Ut wisi enim ad minim veniam,
+                quis nostrud exerci tation ullamcorper suscipit lobortis nisl
+                ut aliquip ex ea commodo consequat. Duis autem vel eum iriure
+                dolor in hendrerit in vulputate velit esse molestie consequat,
+                vel illum dolore eu feugiat nulla facilisis at vero eros et
+                accumsan et iusto odio dignissim qui blandit praesent luptatum
+                zzril delenit augue duis dolore te feugait nulla facilisi.</p>
             
-            <hr>
+            
             </div>
             
             
         </div>
         <div class="row">
             <div class="col-12 col-md-6 space"><img class="member" src="assets/images/mn.jpg" alt="Michael Nesmith"></div>
-            <div class="col-12 col-md-6">All about Michael: Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
-            sed diam nonummy nibh euismod tincidunt ut laoreet dolore
-            magna aliquam erat volutpat. Ut wisi enim ad minim veniam,
-            quis nostrud exerci tation ullamcorper suscipit lobortis nisl
-            ut aliquip ex ea commodo consequat. Duis autem vel eum iriure
-            dolor in hendrerit in vulputate velit esse molestie consequat,
-            vel illum dolore eu feugiat nulla facilisis at vero eros et
-            accumsan et iusto odio dignissim qui blandit praesent luptatum
-            zzril delenit augue duis dolore te feugait nulla facilisi.
+            <div class="col-12 col-md-6">
+                <h3>Michael Nesmith</h3>
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+                sed diam nonummy nibh euismod tincidunt ut laoreet dolore
+                magna aliquam erat volutpat. Ut wisi enim ad minim veniam,
+                quis nostrud exerci tation ullamcorper suscipit lobortis nisl
+                ut aliquip ex ea commodo consequat. Duis autem vel eum iriure
+                dolor in hendrerit in vulputate velit esse molestie consequat,
+                vel illum dolore eu feugiat nulla facilisis at vero eros et
+                accumsan et iusto odio dignissim qui blandit praesent luptatum
+                zzril delenit augue duis dolore te feugait nulla facilisi.</p>
             
-            <hr>
+                <hr class="medium-only">
             </div>
             
         </div>
         
         <div class="row">
-            <div class="col-12 col-md-6 medium-only">All about Peter: Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
-            sed diam nonummy nibh euismod tincidunt ut laoreet dolore
-            magna aliquam erat volutpat. Ut wisi enim ad minim veniam,
-            quis nostrud exerci tation ullamcorper suscipit lobortis nisl
-            ut aliquip ex ea commodo consequat. Duis autem vel eum iriure
-            dolor in hendrerit in vulputate velit esse molestie consequat,
-            vel illum dolore eu feugiat nulla facilisis at vero eros et
-            accumsan et iusto odio dignissim qui blandit praesent luptatum
-            zzril delenit augue duis dolore te feugait nulla facilisi.
+            <div class="col-12 col-md-6 medium-only">
+                <h3>Peter Tork</h3>
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+                sed diam nonummy nibh euismod tincidunt ut laoreet dolore
+                magna aliquam erat volutpat. Ut wisi enim ad minim veniam,
+                quis nostrud exerci tation ullamcorper suscipit lobortis nisl
+                ut aliquip ex ea commodo consequat. Duis autem vel eum iriure
+                dolor in hendrerit in vulputate velit esse molestie consequat,
+                vel illum dolore eu feugiat nulla facilisis at vero eros et
+                accumsan et iusto odio dignissim qui blandit praesent luptatum
+                zzril delenit augue duis dolore te feugait nulla facilisi.</p>
              
-            <hr>
+                <hr>
             </div>
             <div class="col-12 col-md-6 space"><img class="member" src="assets/images/pt.jpg" alt="Peter Tork"></div>
-            <div class="col-12 col-md-6 mobile-only">All about Peter: Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
-            sed diam nonummy nibh euismod tincidunt ut laoreet dolore
-            magna aliquam erat volutpat. Ut wisi enim ad minim veniam,
-            quis nostrud exerci tation ullamcorper suscipit lobortis nisl
-            ut aliquip ex ea commodo consequat. Duis autem vel eum iriure
-            dolor in hendrerit in vulputate velit esse molestie consequat,
-            vel illum dolore eu feugiat nulla facilisis at vero eros et
-            accumsan et iusto odio dignissim qui blandit praesent luptatum
-            zzril delenit augue duis dolore te feugait nulla facilisi.
+            <div class="col-12 col-md-6 mobile-only">
+                <h3>Peter Tork</h3>
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+                sed diam nonummy nibh euismod tincidunt ut laoreet dolore
+                magna aliquam erat volutpat. Ut wisi enim ad minim veniam,
+                quis nostrud exerci tation ullamcorper suscipit lobortis nisl
+                ut aliquip ex ea commodo consequat. Duis autem vel eum iriure
+                dolor in hendrerit in vulputate velit esse molestie consequat,
+                vel illum dolore eu feugiat nulla facilisis at vero eros et
+                accumsan et iusto odio dignissim qui blandit praesent luptatum
+                zzril delenit augue duis dolore te feugait nulla facilisi.</p>
              
-            <hr>
+            
             </div>
             
             
@@ -213,17 +272,19 @@
         
         <div class="row">
             <div class="col-12 col-md-6 space"><img class="member" src="assets/images/band.jpg" alt=""></div>
-            <div class="col-12 col-md-6">Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
-            sed diam nonummy nibh euismod tincidunt ut laoreet dolore
-            magna aliquam erat volutpat. Ut wisi enim ad minim veniam,
-            quis nostrud exerci tation ullamcorper suscipit lobortis nisl
-            ut aliquip ex ea commodo consequat. Duis autem vel eum iriure
-            dolor in hendrerit in vulputate velit esse molestie consequat,
-            vel illum dolore eu feugiat nulla facilisis at vero eros et
-            accumsan et iusto odio dignissim qui blandit praesent luptatum
-            zzril delenit augue duis dolore te feugait nulla facilisi.
-            </div>
-            
+            <div class="col-12 col-md-6">
+                <h3>Extra</h3>
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+                sed diam nonummy nibh euismod tincidunt ut laoreet dolore
+                magna aliquam erat volutpat. Ut wisi enim ad minim veniam,
+                quis nostrud exerci tation ullamcorper suscipit lobortis nisl
+                ut aliquip ex ea commodo consequat. Duis autem vel eum iriure
+                dolor in hendrerit in vulputate velit esse molestie consequat,
+                vel illum dolore eu feugiat nulla facilisis at vero eros et
+                accumsan et iusto odio dignissim qui blandit praesent luptatum
+                zzril delenit augue duis dolore te feugait nulla facilisi.</p>
+                </div>
+                
             
             
         </div>
@@ -257,34 +318,55 @@
        
     </div>
     
-    <footer class="container-fluid">
-        <div class="row">
-            <div class="col-sm-4">
-                <h2>Social Media</h2>
-                    <a href="#" target="_blank">Facebook</a>
-                    <a href="#" target="_blank">Twitter</a>
-                    <a href="#" target="_blank">Youtube</a>
-            </div>
-            <div class="col-sm-4">
-                <h2>Social Media</h2>
-                    <a href="#" target="_blank">Facebook</a>
-                    <a href="#" target="_blank">Twitter</a>
-                    <a href="#" target="_blank">Youtube</a>
-            </div>
-            <div class="col-sm-4">
-                <h2>Social Media</h2>
-                    <a href="#" target="_blank">Facebook</a>
-                    <a href="#" target="_blank">Twitter</a>
-                    <a href="#" target="_blank">Youtube</a>
-            </div>
-        </div>
+    <!--<footer>-->
+        <!--<div class="row">-->
+         
+        <!--    <div class="col-sm-4">-->
+            <!--    <h2>Social Media</h2>-->
+            <!--    <ul class="list-inline social-links">-->
+            <!--        <li class="list-inline-item">-->
+            <!--            <a target="_blank" href="#">-->
+            <!--                <i class="fa fa-facebook" aria-hidden="true"></i>-->
+            <!--                <span class="sr-only">Facebook</span>-->
+            <!--            </a>-->
+            <!--        </li>-->
+            <!--         <li class="list-inline-item">-->
+            <!--            <a target="_blank" href="#">-->
+            <!--                <i class="fa fa-twitter" aria-hidden="true"></i>-->
+            <!--                <span class="sr-only">Twitter</span>-->
+            <!--            </a>-->
+            <!--        </li>-->
+                    
+                     
+                     
+            <!--         <li class="list-inline-item">-->
+            <!--            <a target="_blank" href="#">-->
+            <!--                <i class="fa fa-youtube" aria-hidden="true"></i>-->
+            <!--                <span class="sr-only">Youtube </span>-->
+            <!--            </a>-->
+            <!--        </li>-->
+            <!--    </ul>-->
+            <!--</div>-->
+            
+               <!--<div class="col-sm-4">-->
+                <!--<h2>Social Media</h2>-->
+                <!--    <a href="#" target="_blank">Facebook</a>-->
+                <!--    <a href="#" target="_blank">Twitter</a>-->
+                <!--    <a href="#" target="_blank">Youtube</a>-->
+            <!--</div>-->
+            <!--<div class="col-sm-4">-->
+                <!--<h2>Social Media</h2>-->
+                <!--    <a href="#" target="_blank">Facebook</a>-->
+                <!--    <a href="#" target="_blank">Twitter</a>-->
+                <!--    <a href="#" target="_blank">Youtube</a>-->
+            <!--</div>-->
+        <!--</div>-->
  
         
-    </footer>
+    <!--</footer>-->
     
-<!--<script> </script><!--included to fix chrome bug that causes hover script to fire on page load-->
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
- <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 </body>

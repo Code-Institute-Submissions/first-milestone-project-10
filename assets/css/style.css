@@ -1,3 +1,7 @@
+body {
+    background-color: #e3f2fd;
+}
+
 /*sections*/
 
 /*header {*/
@@ -14,20 +18,16 @@
 
 .logo {
     font-family: 'Monoton', cursive;
-    color: #fafafa;
+ 
 }
 
-h2 {
+h2, h3 {
     font-family: 'Monoton', cursive;
 }
 
+video:focus, button:focus {outline:0;}
 
-footer {
-    /*background-color: #415ce2;*/
-    background-color: #f44242;
-    color: #fafafa;
-    height: 200px;
-}
+
 
 /* elements */
 
@@ -51,22 +51,28 @@ video{
 }
 
 .news {
-    background-color: #415ce2;
+    /*background-color: #415ce2;*/
+   
     padding: 25px;
 }
 
 .disc {
-    background-color:#1aba1a;
+    /*background-color:#1aba1a;*/
+  
 }
 
 .form {
-    background-color: #f47ab9;
+    /*background-color: #f47ab9;*/
+    
+    
 }
 
 .band {
-    background-color: #f4f47b;
-    color: blue;
+    /*background-color: #f4f47b;*/
+   
 }
+
+
 
 /*.member {*/
 /*    display: block;*/
@@ -91,10 +97,20 @@ figure, p {
     margin: 0;
 }
 
+figure {
+    padding: 40px;
+}
+
 
 
 #band>div {
     padding: 25px;
+}
+
+section {
+    background-color: #e3f2fd;
+    width: 70%;
+    margin: auto;
 }
 
 
@@ -131,5 +147,79 @@ figure, p {
 
 .space {
     padding-bottom: 20px;
+}
+
+.carousel-inner > .carousel-item > img {
+  width:640px;
+  height:360px;
+  object-fit: contain;
+}
+
+/*footer*/
+
+/*.social-links {*/
+/*    padding-bottom: 15px;*/
+/*}*/
+
+.social-links li a i {
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 13px;
+    line-height: 7px;
+    text-align: center;
+    color: #fafafa;
+    background: #8f8f8f;
+    -webkit-transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+    transition: all 0.35s ease-in-out;
+}
+
+.social-links li a i:hover {
+    background: pink;
+}
+
+footer {
+    /*background-color: #f44242;*/
+    margin: 0;
+}
+
+/*.social-media {*/
+/*    padding-top: 30px;*/
+/*}*/
+
+.songs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 40px;
+}
+
+.one {
+    -ms-transform: rotate(30deg); /* IE 9 */
+  -webkit-transform: rotate(30deg); /* Safari 3-8 */
+  transform: rotate(30deg);
+}
+
+.two {
+    -ms-transform: rotate(-15deg); /* IE 9 */
+  -webkit-transform: rotate(-15deg); /* Safari 3-8 */
+  transform: rotate(-15deg);
+    
+}
+
+.three {
+  -ms-transform: rotate(-20deg); /* IE 9 */
+  -webkit-transform: rotate(-20deg); /* Safari 3-8 */
+  transform: rotate(-20deg);
+}
+
+.four {
+-ms-transform: rotate(10deg); /* IE 9 */
+  -webkit-transform: rotate(10deg); /* Safari 3-8 */
+  transform: rotate(10deg);
+
 }
 
