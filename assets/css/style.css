@@ -9,7 +9,9 @@ html,body
 
 body {
     /*background-color: #e3f2fd;*/
-    background-image: linear-gradient(to bottom right, #1e90ff, white);
+   
+    /*background-image: linear-gradient(to bottom right, #1e90ff, white);*/
+    background-image: linear-gradient(to bottom right, violet, white);
 }
 
 /*sections*/
@@ -54,14 +56,24 @@ video{
 .news {
    
     padding: 25px;
+   
 }
 
 
 
+footer {
+    background-color: #1a1a1a;
+	
+	color: #fafafa;
+	border: 5px solid white;
+	padding: 10px;
+}
 
-/*.navbar-light .navbar-nav .nav-link {*/
-/*    color: #fafafa;*/
-/*}*/
+
+
+.navbar-light .navbar-nav .nav-link {
+    color: #fafafa;
+}
 
 
     
