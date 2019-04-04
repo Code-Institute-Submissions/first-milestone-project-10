@@ -77,7 +77,7 @@
     
     <div class="cover">
     	<div class="container-one">
-    		<div class="cell divone"><img src="assets/images/dj.jpg"></div>
+    		<div class="cell divone"><img class="gridimg" src="assets/images/dj.jpg"></div>
     		<div class="cell diveight">M</div>
     		<div class="cell divten medium-only"></div>
     		<div class="cell divten mobile-only">O</div>
@@ -92,13 +92,13 @@
     		<div class="cell diveight medium-only"></div>
     		<div class="cell divsix">N</div>
     		<div class="cell divseven mobile-only">K</div>
-    		<div class="cell divtwo"><img src="assets/images/md.jpg"></div> <!-- *position makes no difference thanks to grid-area property* -->
+    		<div class="cell divtwo"><img class="gridimg" src="assets/images/md.jpg"></div> <!-- *position makes no difference thanks to grid-area property* -->
     		<div class="cell divnine medium-only"></div>
     	</div>
     	<div class="container-three">
     		
     		<div class="cell divten  medium-only"></div>
-    		<div class="cell divthree"><img src="assets/images/mn.jpg"></div>
+    		<div class="cell divthree"><img class="gridimg" src="assets/images/mn.jpg"></div>
     		<div class="cell diveight">E</div>
     		<div class="cell divseven medium-only"></div>
     		<div class="cell divnine mobile-only">E</div>
@@ -111,7 +111,7 @@
     		<div class="cell diveight medium-only"></div>
     		<div class="cell divsix mobile-only">S</div>
     		<div class="cell divten medium-only">E</div>
-    		<div class="cell divfour"><img src="assets/images/pt.jpg"></div>
+    		<div class="cell divfour"><img class="gridimg" src="assets/images/pt.jpg"></div>
     		<div class="cell divnine">!</div>
     	</div>
     </div>
@@ -119,7 +119,7 @@
     <div id="about" class="about">
        
         <div class="row">
-            <div class="col-sm-12 col-md-6">
+            <div class="col-sm-12 col-lg-6">
               
                     <p class="action">Listen to Tracks!</p>
                     <p class="action">Watch Video!</p>
@@ -128,7 +128,13 @@
                 
             </div>
             <!--<span class="shout">Listen to Tracks/ </span><span class="shout">Watch Video/ </span><span class="shout">Keep Track of New Releases/ </span><span class="shout">Book the Band</span>-->
-            <div class="col-sm-12 col-md-6"><img src="assets/images/monkees.jpg"></div>
+            <div class="col-sm-12 col-lg-6">
+                <figure>
+                    <img src="assets/images/monkees.jpg">
+                    <figcaption class="text-center">From L-R: Davy, Mickey, Michael and Peter </figcaption>
+                </figure>
+                
+            </div>
         </div>
         <!--<span>Listen to Tracks/ </span><span>Watch Video/ </span><span>Keep Track of New Releases/ </span>Book the Band</span><br>-->
         <div class="row">
@@ -139,7 +145,7 @@
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit inventore, vero fugit nulla. Totam tempore explicabo nisi dicta quae aspernatur, eligendi perferendis minus. Necessitatibus, fuga. Natus, odit, delectus. Minus, ipsa.</p></div>
         </div>
         <div class="row">
-            <div class="col-md-6 medium-only"><img src="assets/images/cover3.jpg"></div>
+            <div class="col-md-6 col-sm-12"><img src="assets/images/cover3.jpg"></div>
             <div class="col-md-6 col-sm-12"><p>But wait, there’s more! Listen to our back catalogue, watch video and keep track of new releases right here on this site. We hope you enjoy your time and the site.
             <br>
                 See you soon. And don't forget to like us on Facebook, follow us on Twitter and finally subscribe to our Youtube Channel. Phew!
@@ -166,27 +172,31 @@
         <figure class="one">
             <figcaption><img src="assets/images/cover.jpg" alt="Listen to Clarksville"></figcaption>
             <audio controls src="assets/audio/Clarksville.mp3">Oops! Your browser does not support the <code>audio</code> element.</audio>
+            <figcaption class="text-center">Listen to "Clarksville"</figcaption>
         </figure>  
         
         <figure class="two">
-            <figcaption><img src="assets/images/cover1.jpg" alt="Listen to Daydream Believer"></figcaption>
+            <figcaption><img src="assets/images/cover.jpg" alt="Listen to Daydream Believer"></figcaption>
             <audio controls src="assets/audio/DaydreamBeliever.mp3">Oops! Your browser does not support the <code>audio</code> element.</audio>
+            <figcaption class="text-center">Listen to "Daydream Believer"</figcaption>
         </figure> 
         
         <figure class="three">
-            <figcaption ><img  src="assets/images/cover2.png" alt="Listen to I'm a Believer"></figcaption>
+            <figcaption ><img  src="assets/images/band.jpg" alt="Listen to I'm a Believer"></figcaption>
             <audio controls src="assets/audio/ImABeliever.mp3">Oops! Your browser does not support the <code>audio</code> element.</audio>
+            <figcaption class="text-center">Listen to "I'm a Believer"</figcaption>
         </figure> 
         
         <figure class="four">
-            <figcaption><img src="assets/images/cover3.jpg" alt="Listen to Stepping Stone"></figcaption>
+            <figcaption><img src="assets/images/band.jpg" alt="Listen to Stepping Stone"></figcaption>
             <audio controls src="assets/audio/SteppingStone.mp3">Oops! Your browser does not support the <code>audio</code> element.</audio>
+            <figcaption class="text-center">Listen to Stepping Stone</figcaption>
         </figure> 
         </div>
     </div>
     
     <div id="newReleases" class="newReleases">
-        <h2 class="text-center">Coming Soon...</h2>
+        <h2 class="text-center">Storefront</h2>
             <div class="row">
                 <div class="col-md-6 col-sm-12"><div id="carouselExampleControls" class="carousel slide" data-ride="carousel"> <!--offset-3-->
                 <!--offset-3-->
@@ -213,10 +223,12 @@
                 </div>
             <!--</div>-->
             <!--<div class="row">-->
-                <div class="col-md-6 col-sm-12 grey">
-                    <p>New Release List
+                <div class="col-md-6 col-sm-12 blurb">
+                    <h2>New Release List</h2>
+                    <p>
                     <br>
                     Greatest Hits incoming! To all our old fans, hear all your favourites remastered. For those new to the band, here's your chance to see what all the fuss is about. Includes hits such as "Clarkesville" and "Stepping Stone". Available for preorder ... and general release. Formats include vinyl, CD and digital.</p>
+                    <button>Buy Now</button>
                 </div>
             </div>
     </div>
