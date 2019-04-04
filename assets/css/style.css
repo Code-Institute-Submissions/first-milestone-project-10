@@ -184,9 +184,9 @@ section {
 }
 
 .three {
-  -ms-transform: rotate(12.5deg); /* IE 9 */
-  -webkit-transform: rotate(12.5deg); /* Safari 3-8 */
-  transform: rotate(20deg);
+  -ms-transform: rotate(5deg); /* IE 9 */
+  -webkit-transform: rotate(5deg); /* Safari 3-8 */
+  transform: rotate(5deg);
   
 }
 
@@ -342,8 +342,6 @@ img {
     height: auto;
 }
 
-
-
 .dropdown-menu {
     border: none;
 }
@@ -473,4 +471,8 @@ footer {
 /*    .med-only{*/
 /*        display: none;*/
 /*    }*/
+/*}*/
+
+/*.buyBtn {*/
+
 /*}*/
