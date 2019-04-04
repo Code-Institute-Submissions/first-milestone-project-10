@@ -74,6 +74,7 @@ footer {
 
 .grey {
     background-color: lightgray;
+    padding: 25px;
 }
 
 h2 {
@@ -122,8 +123,6 @@ section {
     margin: auto;
 }
 
-
-/* Navbar */
 
 .space {
     padding-bottom: 20px;
@@ -332,6 +331,10 @@ img {
 	height: 100%;
 }
 
+.dropdown-menu {
+    border: none;
+}
+
 /*------------------------------------------------------------------mediaQueries*/
 
 
@@ -385,6 +388,7 @@ img {
     .cell {
 	border: 5px solid white;
 	font-size: 60px;
+	line-height: 1.7;
 	
     }
 
@@ -412,6 +416,6 @@ img {
      }
      
      .cell {
-         line-height: 75px;
+         line-height: 1.6;
      }
 }
