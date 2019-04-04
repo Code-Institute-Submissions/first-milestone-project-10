@@ -350,7 +350,7 @@ img {
 /*------------------------------------------------------------------mediaQueries*/
 
 
-@media(min-width: 768px){
+@media(min-width: 992px){
     .mobile-only {
         display: none;
     }
