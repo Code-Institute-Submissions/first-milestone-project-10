@@ -383,7 +383,7 @@ footer {
 
 /*------------------------------------------------------------------mediaQueries*/
 
-@media(min-width: 812px){
+@media(min-width: 768px){
     .small-only{
         display: none;
     }
@@ -473,7 +473,7 @@ footer {
 }
 
 
-@media(max-width: 811px){
+@media(max-width: 767px){
     .med-only{
         display: none;
     }
