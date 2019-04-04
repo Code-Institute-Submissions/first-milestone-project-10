@@ -422,7 +422,7 @@ img {
     
 }
 
-@media(max-width: 767px){
+@media(max-width: 991px){
     .medium-only {
     display: none;
      }
