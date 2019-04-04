@@ -275,11 +275,11 @@ button[type="submit"] {
 
 
 .cell {
-     font-size: 40px;
+    
      border: 2px solid white;
      color: #fafafa;
      padding: 0;
-     font-size: 100px;
+     font-size: 70px;
      font-weight: bold;
      text-align: center;
  }
@@ -333,6 +333,15 @@ img {
 
 .dropdown-menu {
     border: none;
+}
+
+.action {
+    font-size: 35px;
+    font-family: "Permanent Marker", cursive;
+}
+
+.actions {
+    list-style: none;
 }
 
 /*------------------------------------------------------------------mediaQueries*/
@@ -418,4 +427,15 @@ img {
      .cell {
          line-height: 1.6;
      }
+}
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0;
+}
+
+.icons {
+    padding: 20px;
 }
