@@ -15,9 +15,11 @@ body {
 
 /*sections*/
 
+.navbar-light .navbar-nav .nav-link {
+    font-family: 'Permanent Marker', cursive;
+}
+
 .cover {
-    /*width: 100%;*/
-    /*height: auto;*/
     margin: 0 20px;
 	display: flex;
 	flex-wrap: wrap;
@@ -25,9 +27,7 @@ body {
 
 
 .about {
-    
     padding: 50px;
-    /*border: 5px solid white;*/
     background-image: linear-gradient(to bottom, white, violet);
 }
 
@@ -36,24 +36,18 @@ body {
 }
 
 .form {
-    /*border: 5px solid white;*/
     color: #fafafa;
     padding: 50px;
-    /*background-color: crimson;*/
     background-image: linear-gradient(to bottom, blue, crimson);
 }
 
 .newReleases {
-    /*border: 5px solid white;*/
     padding: 50px;
-    /*background-color: blue;*/
     background-image: linear-gradient(to bottom, green, blue);
 }
 
 .disc {
-    /*border: 5px solid white;*/
     padding: 50px;
-    /*background-color: green;*/
     background-image: linear-gradient(to bottom, violet, green);
 }
 
@@ -61,8 +55,10 @@ body {
 footer {
     background-color: #1a1a1a;
 	color: #fafafa;
-	/*border: 5px solid white;*/
-	padding: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0;
 }
 
 /* elements */
@@ -72,12 +68,15 @@ footer {
 }
 
 .blurb {
-    /*background-color: white;*/
-    /*background-image: linear-gradient(to bottom, white, lightgray);*/
     padding: 25px;
     color: #fafafa;
     font-family: "Permanent Marker", cursive;
 }
+
+h1, h2 {
+    margin: 0; /*removes white space below element*/
+}
+
 
 h2 {
     font-family: 'Permanent Marker', cursive;
@@ -85,11 +84,6 @@ h2 {
 
 video:focus, button:focus {
     outline:0;
-    
-}
-
-h1, h2 {
-    margin: 0; /*removes white space below element*/
 }
 
 video{
@@ -97,24 +91,14 @@ video{
     height: auto;
 }
 
-.navbar-light .navbar-nav .nav-link {
-    /*color: #fafafa;*/
-    font-family: 'Permanent Marker', cursive;
-}
-
-
-    
 figure, p {
     margin: 0;
 }
 
 figure {
-    /*padding: 40px;*/
     margin: 10px;
     border: 5px solid white;
     background-color: white;
-
-
 }
 
 #band>div {
@@ -122,7 +106,6 @@ figure {
 }
 
 section {
-   
     width: 70%;
     margin: auto;
 }
@@ -160,9 +143,6 @@ section {
     background: #ff711e;;
 }
 
-
-
-
 .songs {
     display: flex;
     flex-wrap: wrap;
@@ -170,34 +150,43 @@ section {
     padding-top: 40px;
 }
 
-.one {
--ms-transform: rotate(-30deg); /* IE 9 */
-  -webkit-transform: rotate(-30deg); /* Safari 3-8 */
-  transform: rotate(-30deg);
-  
+img {
+    width: 100%;
+    height: auto;
 }
 
-.two {
-    -ms-transform: rotate(15deg); /* IE 9 */
-  -webkit-transform: rotate(15deg); /* Safari 3-8 */
-  transform: rotate(15deg);
-  
-    
+.dropdown-menu {
+    border: none;
 }
 
-.three {
-  -ms-transform: rotate(5deg); /* IE 9 */
-  -webkit-transform: rotate(5deg); /* Safari 3-8 */
-  transform: rotate(5deg);
-  
+.icons {
+    padding: 20px;
 }
 
-.four {
--ms-transform: rotate(-10deg); /* IE 9 */
-  -webkit-transform: rotate(-10deg); /* Safari 3-8 */
-  transform: rotate(-10deg);
-  
+.form-control {
+    margin-bottom: 20px;
+}
 
+.about>.row{
+    margin-bottom: 15px;
+}
+
+.action {
+    font-size: 45px;
+    font-family: "Permanent Marker", cursive;
+    color: white;
+    background-color: #1a1a1a;
+    margin-bottom: 4px;
+    padding-left: 5px;
+}
+
+.action:hover {
+    background-color: white;
+    color: black;
+}
+
+audio {
+    width: 100%;
 }
 
 .box {
@@ -205,21 +194,53 @@ section {
     padding: 10px;
 }
 
-.pink {
-  background-color: #c71eff;
+/*.one {*/
+/*-ms-transform: rotate(-30deg); */
+/*  -webkit-transform: rotate(-30deg); */
+/*  transform: rotate(-30deg);*/
+  
+/*}*/
+
+/*.two {*/
+  /*  -ms-transform: rotate(15deg); IE 9 */
+   /* Safari 3-8 -webkit-transform: rotate(15deg);
+  transform: rotate(15deg);
+  
+    
 }
 
-.yellow {
-    background-color: #ffe11e;
+.three {
+  -ms-transform: rotate(5deg); /* IE 9 
+  -webkit-transform: rotate(5deg); /* Safari 3-8 
+  transform: rotate(5deg);
+  
 }
 
-.red {
-   background-color: #ff381e;
+.four {
+-ms-transform: rotate(-10deg); /* IE 9 
+  -webkit-transform: rotate(-10deg); /* Safari 3-8 
+  transform: rotate(-10deg);
+  
+
 }
 
-.orange {
-    background-color: #ff711e;
-}
+
+
+/*.pink {*/
+/*  background-color: #c71eff;*/
+/*}*/
+
+/*.yellow {*/
+/*    background-color: #ffe11e;*/
+/*}*/
+
+/*.red {*/
+/*   background-color: #ff381e;*/
+/*}*/
+
+/*.orange {*/
+/*    background-color: #ff711e;*/
+/*}*/
 
 .div-bottom {
     margin-bottom: 50px;
@@ -248,7 +269,6 @@ button[type="submit"] {
 .btn-secondary:hover {
     color: #fff;
     background-color: #7ce810;
-    /*border-color: #7ce810;*/
     border-color: #70cc0d;
 }
 
@@ -314,6 +334,7 @@ button[type="submit"] {
 }
 
 .divsix {
+    /*orange*/
 	background-color: #ffb366;
 
 }
@@ -344,49 +365,6 @@ button[type="submit"] {
 	height: 100%;
 }
 
-img {
-    width: 100%;
-    height: auto;
-}
-
-.dropdown-menu {
-    border: none;
-}
-
-.action {
-    font-size: 45px;
-    font-family: "Permanent Marker", cursive;
-    color: white;
-    background-color: #1a1a1a;
-    margin-bottom: 4px;
-    padding-left: 5px;
-}
-
-footer {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    padding: 0;
-}
-
-.icons {
-    padding: 20px;
-}
-
-
-
-.form-control {
-    margin-bottom: 20px;
-}
-
-.about>.row{
-    margin-bottom: 15px;
-}
-
-.action:hover {
-    background-color: white;
-    color: black;
-}
 
 /*------------------------------------------------------------------mediaQueries*/
 
@@ -486,10 +464,5 @@ footer {
     }
 }
 
-/*.buyBtn {*/
 
-/*}*/
 
-audio {
-    width: 100%;
-}
