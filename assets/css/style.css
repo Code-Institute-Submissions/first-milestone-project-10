@@ -79,11 +79,16 @@ h1, h2 {
 
 h2 {
     margin-bottom: 5px;
-    border-bottom: 2px solid lightgray;
+    background-color: #fafafa;
+    border-bottom: 6px solid black;
 }
 
 h2, h3 {
     font-family: 'Permanent Marker', cursive;
+    
+}
+
+h3 {
     color: #fafafa;
 }
 
