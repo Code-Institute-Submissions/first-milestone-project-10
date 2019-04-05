@@ -1,6 +1,6 @@
-<h1>Stream One Project: User-Centric Fronted Development</h1>
+#Stream One Project: User-Centric Fronted Development
 
-<h2>My Approach</h2>
+##My Approach<
 
 <p>According to the brief, the primary target audiences are “fans who wish to use the site and to see and hear clips from their back catalogue
 and any new material as it becomes available.” In addition, the client requested the site showcase their music and allow fans to book the band
@@ -45,8 +45,8 @@ client’s objective of building a social media following.
 <h2>Testing</h2>
 
 <p>The site was tested on various browsers and devices as well as using Google Chrome's web developer tools.</p>
-The grid at the top of the page is responsive, changing to a 12x12 grid on desktop and a 3 x 9 grid on smaller screens. Media queries hide or reveal grid squares dynamically based on screen-size.
-Each audio player is accompanied by an image and text book containing the relevant song lyrics... responsive changes
+The grid at the top of the page is responsive, changing to a 12x12 grid on desktop and a 3 x 9 grid on smaller screens. Media queries hide or reveal grid squares dynamically based on screen-size. Issues arose with the letters spelling out "Monkees!"
+contained in certain squares, requiring me to add properties such as line-height and font-size to make sure the letters fit cells neatly without distorting them, along with media queries for further necessary adjustments relative to screen size. Each audio player is accompanied by an image and text book containing the relevant song lyrics... responsive changes
 The store front provides a button that is intended to link to a payment page.
 The form section requires a name, email and details of the venue before a request may be submitted. However, the facility to process these requests is not available.
 
