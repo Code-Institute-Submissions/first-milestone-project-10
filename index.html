@@ -4,53 +4,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <!--<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"/>-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
     <link href="https://fonts.googleapis.com/css?family=Roboto|Monoton|Permanent+Marker" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css"/>
     
+    
+    
     <title>The Monkees</title>
 </head>
 <body>
     
-      <nav class="navbar navbar-light navbar-expand-sm"> <!--add fixed to make it stick-->
-
+      <nav class="navbar fixed-top navbar-light navbar-expand-sm"> 
        <a href="#" class="navbar-brand"><span class="logo">The Monkees</span></a>
-       
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-         
+           <span class="navbar-toggler-icon"></span>
         </button> 
-      
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-       <ul class="navbar-nav mr-auto">
-           <li class="nav-item mr-2"><a class="nav-link" href="#about">About</a></li>
-           <li class="nav-item mr-2"><a class="nav-link" href="#disc">Discography</a></li>
-           <li class="nav-item mr-2"><a class="nav-link" href="#storefront">Storefront</a></li>
-           <li class="nav-item mr-2"><a class="nav-link" href="#bookings">Bookings</a></li>
-           
-           
-           <li class="nav-item mr-2 d-block d-sm-none dropdown">
-               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Social Media</a>
-               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-               <!--<li class="nav-item mr-2 d-block d-sm-none"><a class="nav-link" href="#">Facebook</a></li>-->
-               <!--<li class="nav-item mr-2 d-block d-sm-none"><a class="nav-link" href="#">Twitter</a></li>-->
-               <!--<li class="nav-item mr-2 d-block d-sm-none"><a class="nav-link" href="#">Youtube</a></li>-->
-               <a class="dropdown-item nav-link" href="#">Facebook</a>
-               <a class="dropdown-item nav-link" href="#">Twitter</a>
-               <a class="dropdown-item nav-link" href="#">Youtube</a>
-               </div>
-               
-           </li>
-           
-       </ul>
-      </div>
-      
-       
-    
-       <div class="d-none d-md-block social-media">
-       <!--<a href="#" class="my-auto mr-2">Sign In / Sign Up</a>-->
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                   <ul class="navbar-nav mr-auto">
+                       <li class="nav-item mr-2"><a class="nav-link" href="#watch">Video</a></li>
+                       <li class="nav-item mr-2"><a class="nav-link" href="#disc">Discography</a></li>
+                       <li class="nav-item mr-2"><a class="nav-link" href="#storefront">Storefront</a></li>
+                       <li class="nav-item mr-2"><a class="nav-link" href="#bookings">Bookings</a></li>
+                       <li class="nav-item mr-2 d-block d-sm-none dropdown">
+                           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Social Media</a>
+                           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                               <a class="dropdown-item nav-link" href="#">Facebook</a>
+                               <a class="dropdown-item nav-link" href="#">Twitter</a>
+                               <a class="dropdown-item nav-link" href="#">Youtube</a>
+                           </div>
+                      </li>
+                   </ul>
+                  </div>
+       <div class="d-none d-md-block social-media icon-space">
        <ul class="list-inline social-links">
                     <li class="list-inline-item">
                         <a target="_blank" href="#">
@@ -71,63 +57,54 @@
                         </a>
                     </li>
                 </ul>
-       </div>
-   </nav>
-    
-    
-    <div class="cover">
-    	<div class="container-one">
-    		<div class="cell divone"><img class="gridimg" src="assets/images/dj.jpg"></div>
-    		<div class="cell diveight">M</div>
-    		<div class="cell divten medium-only"></div>
-    		<div class="cell divten mobile-only">O</div>
-    		<div class="cell divseven medium-only">K</div>
-    		<div class="cell divfive medium-only"></div>
-    		<div class="cell divsix medium-only"></div><!--<img src="assets/images/monkees.jpg">-->
-    		
-    	</div>
-    	<div class="container-two">
-    		<div class="cell divfive medium-only"></div>
-    		<div class="cell divten medium-only"></div>
-    		<div class="cell diveight medium-only">O</div>
-    		<div class="cell divsix">N</div>
-    		<div class="cell divseven mobile-only">K</div>
-    		<div class="cell divtwo"><img class="gridimg" src="assets/images/md.jpg"></div> <!-- *position makes no difference thanks to grid-area property* -->
-    		<div class="cell divnine medium-only"></div>
-    	</div>
-    	<div class="container-three">
-    		
-    		<div class="cell divten  medium-only">E</div>
-    		<div class="cell divthree"><img class="gridimg" src="assets/images/mn.jpg"></div>
-    		<div class="cell diveight"></div>
-    		<div class="cell divseven medium-only"></div>
-    		<div class="cell divnine mobile-only">E</div>
-    		<div class="cell divnine medium-only">S</div>
-    		<div class="cell divsix medium-only"></div>
-    	</div>
-    	<div class="container-four">
-    		<div class="cell divfive medium-only"></div>
-    		<div class="cell divseven medium-only"></div>
-    		<div class="cell diveight medium-only"></div>
-    		<div class="cell divsix mobile-only">S</div>
-    		<div class="cell divten medium-only">E</div>
-    		<div class="cell divfour"><img class="gridimg" src="assets/images/pt.jpg"></div>
-    		<div class="cell divnine">!</div>
-    	</div>
-    </div>
- 
+        </div>
+       </nav>
+        <div class="cover">
+        	<div class="container-one">
+        		<div class="cell divone"><img class="gridimg" src="assets/images/dj.jpg"></div>
+        		<div class="cell diveight">M</div>
+        		<div class="cell divten medium-only"></div>
+        		<div class="cell divten mobile-only">O</div>
+        		<div class="cell divseven medium-only">K</div>
+        		<div class="cell divfive medium-only"></div>
+        		<div class="cell divsix medium-only"></div>
+        	</div>
+        	<div class="container-two">
+        		<div class="cell divfive medium-only"></div>
+        		<div class="cell divten medium-only"></div>
+        		<div class="cell diveight medium-only">O</div>
+        		<div class="cell divsix">N</div>
+        		<div class="cell divseven mobile-only">K</div>
+        		<div class="cell divtwo"><img class="gridimg" src="assets/images/md.jpg"></div>
+        		<div class="cell divnine medium-only"></div>
+        	</div>
+        	<div class="container-three">
+        		<div class="cell divten medium-only"></div>
+        		<div class="cell divthree"><img class="gridimg" src="assets/images/mn.jpg"></div>
+        		<div class="cell diveight">E</div>
+        		<div class="cell divseven medium-only"></div>
+        		<div class="cell divnine mobile-only">E</div>
+        		<div class="cell divnine medium-only">S</div>
+        		<div class="cell divsix medium-only"></div>
+        	</div>
+        	<div class="container-four">
+        		<div class="cell divfive medium-only"></div>
+        		<div class="cell divseven medium-only"></div>
+        		<div class="cell diveight medium-only"></div>
+        		<div class="cell divsix mobile-only">S</div>
+        		<div class="cell divten medium-only">E</div>
+        		<div class="cell divfour"><img class="gridimg" src="assets/images/pt.jpg"></div>
+        		<div class="cell divnine">!</div>
+        	</div>
+        </div>
     <div id="about" class="about">
-       
-        <div class="row">
+        <div class="row space-below">
             <div class="col-sm-12 col-lg-6">
-              
                     <p class="action">Listen to Tracks!</p>
                     <p class="action">Watch Video!</p>
-                    <p class="action">Keep Track of New Releases!<p>
+                    <p class="action">Keep Track of New Releases!</p>
                     <p class="action">Book the Band!</p>
-                
             </div>
-            <!--<span class="shout">Listen to Tracks/ </span><span class="shout">Watch Video/ </span><span class="shout">Keep Track of New Releases/ </span><span class="shout">Book the Band</span>-->
             <div class="col-sm-12 col-lg-6">
                 <figure>
                     <img src="assets/images/monkees.jpg">
@@ -136,13 +113,12 @@
                 
             </div>
         </div>
-        <!--<span>Listen to Tracks/ </span><span>Watch Video/ </span><span>Keep Track of New Releases/ </span>Book the Band</span><br>-->
         <div class="row">
             <div class="col">
             <p> 
                 Davy Jones, Mickey Dolenz, Michael Nesmith and Peter Tork are the Monkees. The band behind
                 such hits as “Daydream Believer” and ‘I’m a Believer” welcome you to their site. TV stars
-                and musicians and with 50 years of experience, the Monkees can guarantee a spectacular
+                and musicians with 50 years of experience, the Monkees guarantee a spectacular
                 performance whether it’s your wedding or party.  
             </p>
             <br>
@@ -155,76 +131,54 @@
             <br>
             <p>
                 The Monkees have sold more than 75 million records worldwide, making them one of the biggest
-                selling groups of all time with international hits, including "Last Train to Clarksville",
+                selling groups of all time with such hits as "Last Train to Clarksville",
                 "Stepping Stone", "Daydream Believer", and "I'm a Believer".
             </p>
             <br>
             <p>
-                They’re also considered pioneers of the music video; their televised perfomances on their show 
+                They’re also considered pioneers in the music industry; their televised perfomances on their show 
                 are considered precursors to the modern music video. And they happen to love the spotlight!
             </p>
             </div>
         </div>
-        <div class="row">
-            <div class="col-md-6 col-sm-12"><img src="assets/images/cover3.jpg"></div>
-            <div class="col-md-6 col-sm-12"><p>But wait, there’s more! Listen to our back catalogue, watch video and keep track of new releases right here on this site. We hope you enjoy your time and the site.
+        <div class="row signature">
+            <div class="col-md-6 col-sm-12">
+                <figure>
+                    <img src="assets/images/cover3.jpg">
+                    <figcaption class="text-center">From L-R: Davy, Peter, Michael and Mickey </figcaption>
+                </figure>
+                
+                </div>
+            <div class="col-md-6 col-sm-12"><p><br>But wait, there’s more! Listen to our back catalogue, watch video and keep track of new releases right here on this site. We hope you enjoy your time here.
             <br>
-                See you soon. And don't forget to like us on Facebook, follow us on Twitter and finally subscribe to our Youtube Channel. Phew!
+                And don't forget to like us on Facebook, follow us on Twitter and finally subscribe to our Youtube Channel. Phew!
                 <br>
                 <br>
                 
                 Davy, Mickey, Michael and Peter x</p></div>
         </div>
-          
-            <h2 class="text-center">Watch the Monkees</h2>
+         <div  id="watch" class="row small-space">
+             <div class="col"><h2 class="text-center">Watch the Monkees</h2></div>
+         </div>
             <div class="row">
                 <div class="col-md-8 offset-md-2 col-sm-12">
-                    <video controls autoplay muted loop>
-                        <source src="assets/video/TheMonkees.mp4" type="video/mp4">
-                        Your browser does not support the video tag.
-                    </video>
+                     <figure>
+                         <video controls autoplay muted loop>
+                            <source src="assets/video/TheMonkees.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    <figcaption class="text-center">The Monkees performing "Daydream Believer"</figcaption>
+                </figure>
+                    
                 </div>
             </div>
     </div>
-    
-    <!--<div id="disc" class="disc">-->
-    <!--    <h2 class="text-center">Discography</h2>-->
-    <!--    <div class="songs">-->
-    <!--    <figure class="one">-->
-    <!--        <figcaption><img src="assets/images/cover.jpg" alt="Listen to Clarksville"></figcaption>-->
-    <!--        <audio controls src="assets/audio/Clarksville.mp3">Oops! Your browser does not support the <code>audio</code> element.</audio>-->
-    <!--        <figcaption class="text-center">Listen to "Clarksville"</figcaption>-->
-    <!--    </figure>  -->
-        
-    <!--    <figure class="two">-->
-    <!--        <figcaption><img src="assets/images/album.jpg" alt="Listen to Daydream Believer"></figcaption>-->
-    <!--        <audio controls src="assets/audio/DaydreamBeliever.mp3">Oops! Your browser does not support the <code>audio</code> element.</audio>-->
-    <!--        <figcaption class="text-center">Listen to "Daydream Believer"</figcaption>-->
-    <!--    </figure> -->
-        
-    <!--    <figure class="three">-->
-    <!--        <figcaption ><img src="assets/images/album.jpg" height="50" width="50" alt="Listen to I'm a Believer"></figcaption>-->
-    <!--        <audio controls src="assets/audio/ImABeliever.mp3">Oops! Your browser does not support the <code>audio</code> element.</audio>-->
-    <!--        <figcaption class="text-center">Listen to "I'm a Believer"</figcaption>-->
-    <!--    </figure> -->
-        
-    <!--    <figure class="four">-->
-    <!--        <figcaption><img src="assets/images/band.jpg" alt="Listen to Stepping Stone"></figcaption>-->
-    <!--        <audio controls src="assets/audio/SteppingStone.mp3">Oops! Your browser does not support the <code>audio</code> element.</audio>-->
-    <!--        <figcaption class="text-center">Listen to Stepping Stone</figcaption>-->
-    <!--    </figure> -->
-    <!--    </div>-->
-    <!--</div>-->
-    
     <div id="disc" class="disc">
-
-        <div class="row text-center">
+        <div class="row text-center small-space">
             <div class="col"><h2>Discography</h2></div>
         </div>
-
-        <div class="row">
-            
-            <div class="col-12 col-md-6 text-center">
+        <div class="row space-below">
+            <div class="col-12 col-md-6 text-center space">
                 <h3>Daydream Believer</h3>
                 <div class="blurb med-only">
                     <p>"Oh, I could hide 'neath the wings
@@ -238,19 +192,15 @@
                         Daydream believer and a
                         Homecoming queen?"</p>
                 </div>
-                
             </div>
-            
-        
-           
-        
-            
             <div class="col-12 col-md-6">
+                <div class="cube">
                 <figure>
                 	<figcaption><img src="assets/images/album.jpg" alt="Listen to Daydream Believer"></figcaption>
                 	<audio controls src="assets/audio/DaydreamBeliever.mp3">Oops! Your browser does not support the <code>audio</code> element.</audio>
                 	<figcaption class="text-center">Listen to "Daydream Believer"</figcaption>
                 </figure> 
+                </div>
     		</div>
     		<div class="col-12 small-only">
     		        <div class="blurb">  <p>"Oh, I could hide 'neath the wings
@@ -265,19 +215,22 @@
                         Homecoming queen?"</p></div>
     		    </div>
                 </div>
-                <div class="row">
+                <div class="row space-below">
                     <div class="col-12 col-md-6 small-only text-center">
-                        <h3>Clarksville</h3>
+                        <h3>Last Train to Clarksville</h3>
                     </div>
                     <div class="col-12 col-md-6">
+                        <div class="cube">
+                            
                        	<figure>
         		            <figcaption><img src="assets/images/cover.jpg" alt="Listen to Clarksville"></figcaption>
         		            	<audio controls src="assets/audio/Clarksville.mp3">Oops! Your browser does not support the <code>audio</code> element.</audio>
                             <figcaption class="text-center">Listen to "Clarksville"</figcaption>
                         </figure>  
+                        </div>
                     </div>
-                    <div class="col-12 col-md-6 text-center med-only">
-                        <h3>Clarksville</h3>
+                    <div class="col-12 col-md-6 text-center med-only space">
+                        <h3>Last Train to Clarksville</h3>
                         <div class="blurb"><p>
     		            "Take the last train to Clarksville
                         And I'll meet you at the station
@@ -311,10 +264,9 @@
                         And I don't know if I'm ever coming home..."
     		            </p></div>
     		        </div>
-    	
                 </div>
-                 <div class="row">
-                    <div class="col-12 col-md-6 text-center">
+                 <div class="row space-below">
+                    <div class="col-12 col-md-6 text-center space">
                     <h3>I'm a Believer</h3>
                     <div class="blurb med-only">
                         <p>"I thought love was only true in fairy tales
@@ -328,15 +280,15 @@
                         I'm a believer, I couldn't leave her if I tried"</p>
                     </div>
                     </div>
-            
                     <div class="col-12 col-md-6"> 
+                        <div class="cube">
                     	<figure>
                     		<figcaption ><img src="assets/images/cover3.jpg" height="50" width="50" alt="Listen to I'm a Believer"></figcaption>
                     		<audio controls src="assets/audio/ImABeliever.mp3">Oops! Your browser does not support the <code>audio</code> element.</audio>
                     		<figcaption class="text-center">Listen to "I'm a Believer"</figcaption>
                 		</figure> 
+                		</div>
         	       </div>
-        	
         	        <div class="col-12 small-only">
     		        <div class="blurb"> <p>"I thought love was only true in fairy tales
                         Meant for someone else but not for me
@@ -349,18 +301,20 @@
                         I'm a believer, I couldn't leave her if I tried"</p></div>
     		        </div>
                 </div>
-                <div class="row">
+                <div class="row space-below">
                     <div class="col-12 col-md-6 small-only text-center">
                         <h3>Stepping Stone</h3>
                     </div>
                     <div class="col-12 col-md-6">
+                        <div class="cube">
                     	<figure>
                     		<figcaption><img src="assets/images/band.jpg" alt="Listen to Stepping Stone"></figcaption>
                     		<audio controls src="assets/audio/SteppingStone.mp3">Oops! Your browser does not support the <code>audio</code> element.</audio>
                     		<figcaption class="text-center">Listen to Stepping Stone</figcaption>
                 		</figure> 
+                		</div>
                     </div>
-                    <div class="col-12 col-md-6 med-only text-center">
+                    <div class="col-12 col-md-6 med-only text-center space">
                         <h3>Stepping Stone</h3>
                         <div class="blurb"><p>"I-I-I-I-I'm not your steppin' stone
                             I-I-I-I-I'm not your steppin' stone
@@ -389,9 +343,11 @@
         		      </div>
                     </div>
                 </div>
-    
     <div id="storefront" class="storefront">
-        <h2 class="text-center">Storefront</h2>
+        <div class="row small-space">
+            <div class="col"><h2 class="text-center">Storefront</h2></div>
+        </div>
+        
             <div class="row">
                 <div class="col-md-6 col-sm-12"><div id="carouselExampleControls" class="carousel slide" data-ride="carousel"> <!--offset-3-->
                 <!--offset-3-->
@@ -416,168 +372,30 @@
                       </a>
                     </div>
                 </div>
-            <!--</div>-->
-            <!--<div class="row">-->
                 <div class="col-md-6 col-sm-12 blurb">
                     <h3>Coming Soon</h3>
                     <p>
                     <br>
-                    Greatest hits incoming! To all our old fans, hear all your favourites remastered for only €18.99. For those new to the band, here's your chance to see what all the fuss is about. Includes hits such as "Clarkesville" and "Stepping Stone". Available for preorder now and on general release 21st April 2019. Formats include vinyl, CD and digital.</p>
-                    <!--<button type="button" class="btn btn-danger">Buy Now</button>-->
+                    Greatest hits incoming! To all our old fans, hear all your favourites remastered for only €18.99.
+                    For those new to the band, here's your chance to see what all the fuss is about. Includes hits
+                    such as "Clarkesville" and "Stepping Stone". Available for preorder now and on general release
+                    21st April 2019. Formats include vinyl, CD and digital.</p>
                      <div class="buyBtn text-center">
-                            
                                 <button type="submit" class="btn btn-lg btn-secondary">Buy Now</button>
-                            
                         </div>
                 </div>
             </div>
     </div>
-    
-   <!-- <div id="band" class="band container-fluid">-->
-   <!--     <div class="row">-->
-   <!--         <div class="col"><h2  class="text-center">The Band</h2></div>-->
-   <!--     </div>-->
-   <!--     <div class="row">-->
-   <!--         <div class="col-12 col-md-6 space"><img class="member" src="assets/images/dj.jpg" alt="Davy Jones"></div>-->
-   <!--         <div class="col-12 col-md-6">-->
-   <!--         <h3>Davy Jones</h3>-->
-   <!--         <p class="box pink">Lorem ipsum dolor sit amet, consectetuer adipiscing elit,-->
-   <!--         sed diam nonummy nibh euismod tincidunt ut laoreet dolore-->
-   <!--         magna aliquam erat volutpat. Ut wisi enim ad minim veniam,-->
-   <!--         quis nostrud exerci tation ullamcorper suscipit lobortis nisl-->
-   <!--         ut aliquip ex ea commodo consequat. Duis autem vel eum iriure-->
-   <!--         dolor in hendrerit in vulputate velit esse molestie consequat,-->
-   <!--         vel illum dolore eu feugiat nulla facilisis at vero eros et-->
-   <!--         accumsan et iusto odio dignissim qui blandit praesent luptatum-->
-   <!--         zzril delenit augue duis dolore te feugait nulla facilisi.</p>-->
-           
-            
-   <!--         </div>-->
-            
-   <!--     </div>-->
-   <!--     <div class="row">-->
-   <!--         <div class="col-12 col-md-6 medium-only">-->
-   <!--             <h3>Mickey Dolenz</h3>-->
-   <!--             <p class="box red">Lorem ipsum dolor sit amet, consectetuer adipiscing elit,-->
-   <!--             sed diam nonummy nibh euismod tincidunt ut laoreet dolore-->
-   <!--             magna aliquam erat volutpat. Ut wisi enim ad minim veniam,-->
-   <!--             quis nostrud exerci tation ullamcorper suscipit lobortis nisl-->
-   <!--             ut aliquip ex ea commodo consequat. Duis autem vel eum iriure-->
-   <!--             dolor in hendrerit in vulputate velit esse molestie consequat,-->
-   <!--             vel illum dolore eu feugiat nulla facilisis at vero eros et-->
-   <!--             accumsan et iusto odio dignissim qui blandit praesent luptatum-->
-   <!--             zzril delenit augue duis dolore te feugait nulla facilisi.</p>-->
-            
-            
-   <!--         </div>-->
-   <!--         <div class="col-12 col-md-6 space"><img class="member" src="assets/images/md.jpg" alt="Mickey Dolenz"></div>-->
-   <!--         <div class="col-12 col-md-6 mobile-only">-->
-   <!--             <h3>Mickey Dolenz</h3>-->
-   <!--             <p class="box red">Lorem ipsum dolor sit amet, consectetuer adipiscing elit,-->
-   <!--             sed diam nonummy nibh euismod tincidunt ut laoreet dolore-->
-   <!--             magna aliquam erat volutpat. Ut wisi enim ad minim veniam,-->
-   <!--             quis nostrud exerci tation ullamcorper suscipit lobortis nisl-->
-   <!--             ut aliquip ex ea commodo consequat. Duis autem vel eum iriure-->
-   <!--             dolor in hendrerit in vulputate velit esse molestie consequat,-->
-   <!--             vel illum dolore eu feugiat nulla facilisis at vero eros et-->
-   <!--             accumsan et iusto odio dignissim qui blandit praesent luptatum-->
-   <!--             zzril delenit augue duis dolore te feugait nulla facilisi.</p>-->
-            
-            
-   <!--         </div>-->
-            
-            
-   <!--     </div>-->
-   <!--     <div class="row">-->
-   <!--         <div class="col-12 col-md-6 space"><img class="member" src="assets/images/mn.jpg" alt="Michael Nesmith"></div>-->
-   <!--         <div class="col-12 col-md-6">-->
-   <!--             <h3>Michael Nesmith</h3>-->
-   <!--             <p class="box orange">Lorem ipsum dolor sit amet, consectetuer adipiscing elit,-->
-   <!--             sed diam nonummy nibh euismod tincidunt ut laoreet dolore-->
-   <!--             magna aliquam erat volutpat. Ut wisi enim ad minim veniam,-->
-   <!--             quis nostrud exerci tation ullamcorper suscipit lobortis nisl-->
-   <!--             ut aliquip ex ea commodo consequat. Duis autem vel eum iriure-->
-   <!--             dolor in hendrerit in vulputate velit esse molestie consequat,-->
-   <!--             vel illum dolore eu feugiat nulla facilisis at vero eros et-->
-   <!--             accumsan et iusto odio dignissim qui blandit praesent luptatum-->
-   <!--             zzril delenit augue duis dolore te feugait nulla facilisi.</p>-->
-            
-               
-   <!--         </div>-->
-            
-   <!--     </div>-->
-   <!--     <div class="row">-->
-   <!--         <div class="col-12 col-md-6 medium-only">-->
-   <!--             <h3>Peter Tork</h3>-->
-   <!--             <p class="box yellow">Lorem ipsum dolor sit amet, consectetuer adipiscing elit,-->
-   <!--             sed diam nonummy nibh euismod tincidunt ut laoreet dolore-->
-   <!--             magna aliquam erat volutpat. Ut wisi enim ad minim veniam,-->
-   <!--             quis nostrud exerci tation ullamcorper suscipit lobortis nisl-->
-   <!--             ut aliquip ex ea commodo consequat. Duis autem vel eum iriure-->
-   <!--             dolor in hendrerit in vulputate velit esse molestie consequat,-->
-   <!--             vel illum dolore eu feugiat nulla facilisis at vero eros et-->
-   <!--             accumsan et iusto odio dignissim qui blandit praesent luptatum-->
-   <!--             zzril delenit augue duis dolore te feugait nulla facilisi.</p>-->
-             
-                
-   <!--         </div>-->
-   <!--         <div class="col-12 col-md-6 space"><img class="member" src="assets/images/pt.jpg" alt="Peter Tork"></div>-->
-   <!--         <div class="col-12 col-md-6 mobile-only">-->
-   <!--             <h3>Peter Tork</h3>-->
-   <!--             <p class="box yellow">Lorem ipsum dolor sit amet, consectetuer adipiscing elit,-->
-   <!--             sed diam nonummy nibh euismod tincidunt ut laoreet dolore-->
-   <!--             magna aliquam erat volutpat. Ut wisi enim ad minim veniam,-->
-   <!--             quis nostrud exerci tation ullamcorper suscipit lobortis nisl-->
-   <!--             ut aliquip ex ea commodo consequat. Duis autem vel eum iriure-->
-   <!--             dolor in hendrerit in vulputate velit esse molestie consequat,-->
-   <!--             vel illum dolore eu feugiat nulla facilisis at vero eros et-->
-   <!--             accumsan et iusto odio dignissim qui blandit praesent luptatum-->
-   <!--             zzril delenit augue duis dolore te feugait nulla facilisi.</p>-->
-             
-            
-   <!--         </div>-->
-            
-            
-   <!--     </div>-->
-   <!--     <div class="row">-->
-   <!--         <div class="col-12 col-md-6 space"><img class="member" src="assets/images/band.jpg" alt=""></div>-->
-   <!--         <div class="col-12 col-md-6">-->
-   <!--             <h3>Extra</h3>-->
-   <!--             <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit,-->
-   <!--             sed diam nonummy nibh euismod tincidunt ut laoreet dolore-->
-   <!--             magna aliquam erat volutpat. Ut wisi enim ad minim veniam,-->
-   <!--             quis nostrud exerci tation ullamcorper suscipit lobortis nisl-->
-   <!--             ut aliquip ex ea commodo consequat. Duis autem vel eum iriure-->
-   <!--             dolor in hendrerit in vulputate velit esse molestie consequat,-->
-   <!--             vel illum dolore eu feugiat nulla facilisis at vero eros et-->
-   <!--             accumsan et iusto odio dignissim qui blandit praesent luptatum-->
-   <!--             zzril delenit augue duis dolore te feugait nulla facilisi.</p>-->
-   <!--             </div>-->
-                
-            
-            
-   <!--     </div>-->
-   <!--     <div class="row">-->
-   <!--                 <div class="col-12">-->
-                         
-   <!--                      <video controls autoplay muted loop>-->
-   <!--                           <source src="assets/video/TheMonkees.mp4" type="video/mp4">-->
-   <!--                           Your browser does not support the video tag.-->
-   <!--                      </video>-->
-   <!--                  </div>-->
-   <!--             </div>-->
-   <!--</div>-->
-    
-    <section id="bookings" class="container-fluid form">
+    <section id="bookings" class="form">
         <div class="row">
             <div class="col">
-                <h3 class="contact-heading text-center">Bookings</h3>
-                <h4 class="text-center">Fill out the form below to see the Monkees live!</h4>
+                <h2 class="contact-heading text-center">Bookings</h2>
+                <h4 class="text-center white">Fill out the form below to see the Monkees live!</h4>
                 <div class="center-form">
                     <form>
                         <input type="text" name="name" id="fullname" class="form-control" placeholder="Name" required="">
                         <input type="email" name="email" id="emailaddress" class="form-control" placeholder="Email" required="">
-                        <textarea rows="5" name="projectsummary" id="projectsummary" class="form-control" placeholder="Booking Details" required=""></textarea>
+                        <textarea rows="7" name="bookingdetails" id="bookingdetails" class="form-control" placeholder="Booking Details" required=""></textarea>
                         <div class="form-row text-center">
                             <div class="col">
                                 <button type="submit" class="btn btn-secondary">Send Booking Request</button>
@@ -588,9 +406,9 @@
             </div>
         </div>
     </section>
-    
     <footer>
-            <div class="icons"><ul class="list-inline social-links">
+            <div class="icons">
+                <ul class="list-inline social-links">
                     <li class="list-inline-item">
                         <a target="_blank" href="#">
                             <i class="fa fa-facebook" aria-hidden="true"></i>
@@ -609,20 +427,13 @@
                             <span class="sr-only">Youtube </span>
                         </a>
                     </li>
-                </ul></div>
-                
-            <div class="icons medium-only"><span class="logo">The Monkees</span></div>
-            <!--<br><a href="#">Jump to top</a>-->
-            
+                </ul>
+            </div>
+            <div class="icons med-only"><span class="logo">The Monkees</span></div>
             <div class="icons"><span>@copyright 2019</span></div>
-        
     </footer>
-    
-
-    
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 </body>
 </html>

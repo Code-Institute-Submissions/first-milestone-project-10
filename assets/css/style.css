@@ -8,19 +8,21 @@ html,body
 }
 
 body {
-    /*background-color: #e3f2fd;*/
-    /*background-image: linear-gradient(to bottom right, #1e90ff, white);*/
-    /*background-image: linear-gradient(to bottom right, violet, white);*/
+    font-family: "Permanent Marker", cursive;
 }
 
 /*sections*/
+
+nav {
+    background-color: #fafafa;
+}
 
 .navbar-light .navbar-nav .nav-link {
     font-family: 'Permanent Marker', cursive;
 }
 
 .cover {
-    margin: 0 20px;
+    margin-top: 80px;
 	display: flex;
 	flex-wrap: wrap;
 }
@@ -29,6 +31,11 @@ body {
 .about {
     padding: 50px;
     background-image: linear-gradient(to bottom, white, violet);
+    
+}
+
+.signature {
+    padding-bottom: 100px;
 }
 
 .about>p {
@@ -36,7 +43,6 @@ body {
 }
 
 .form {
-    color: #fafafa;
     padding: 50px;
     background-image: linear-gradient(to bottom, blue, crimson);
 }
@@ -49,6 +55,7 @@ body {
 .disc {
     padding: 50px;
     background-image: linear-gradient(to bottom, violet, green);
+    padding-bottom: 100px;
 }
 
 
@@ -61,7 +68,7 @@ footer {
     padding: 0;
 }
 
-/* elements */
+/*-------------------------------------------------------------------elements */
 
 .logo {
     font-family: 'Permanent Marker', cursive;
@@ -74,7 +81,7 @@ footer {
 }
 
 h1, h2 {
-    margin: 0; /*removes white space below element*/
+    margin: 0; 
 }
 
 h2 {
@@ -88,7 +95,7 @@ h2, h3 {
     
 }
 
-h3 {
+h3, .white {
     color: #fafafa;
 }
 
@@ -99,10 +106,15 @@ video:focus, button:focus {
 video{
     width: 100%;
     height: auto;
+    margin-top: 20px;
 }
 
 figure, p {
     margin: 0;
+}
+
+.icon-space {
+    margin-top: 0.75rem;
 }
 
 figure {
@@ -115,42 +127,19 @@ figure {
     padding: 25px;
 }
 
-section {
-    width: 70%;
-    margin: auto;
+
+.space-below {
+    margin-bottom: 50px;
 }
 
-
-.space {
-    padding-bottom: 20px;
+.small-space {
+    margin-bottom: 15px;
 }
 
 .carousel-inner > .carousel-item > img {
   width:640px;
   height:360px;
   object-fit: contain;
-}
-
-
-
-.social-links li a i {
-    width: 32px;
-    height: 32px;
-    padding: 12px 0;
-    border-radius: 50%;
-    font-size: 13px;
-    line-height: 7px;
-    text-align: center;
-    color: #fafafa;
-    background: #8f8f8f;
-    -webkit-transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
-    transition: all 0.35s ease-in-out;
-}
-
-.social-links li a i:hover {
-    background: #ff711e;;
 }
 
 .songs {
@@ -170,16 +159,14 @@ img {
 }
 
 .icons {
-    padding: 20px;
+    padding: 15px;
+    margin-top: 1rem;
 }
 
 .form-control {
     margin-bottom: 20px;
 }
 
-.about>.row{
-    margin-bottom: 15px;
-}
 
 .action {
     font-size: 45px;
@@ -190,7 +177,7 @@ img {
     padding-left: 5px;
 }
 
-.action:hover {
+.action:hover, .action:active {
     background-color: white;
     color: black;
 }
@@ -199,61 +186,28 @@ audio {
     width: 100%;
 }
 
-.box {
-    border-radius: 10px;
-    padding: 10px;
+
+/*--------------------------------------------codeinstitute lesson code begins*/
+
+.social-links li a i {
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 13px;
+    line-height: 10px;
+    text-align: center;
+    color: #fafafa;
+    background: #999999;
+    -webkit-transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+    transition: all 0.35s ease-in-out;
+    margin-bottom: 0;
 }
 
-/*.one {*/
-/*-ms-transform: rotate(-30deg); */
-/*  -webkit-transform: rotate(-30deg); */
-/*  transform: rotate(-30deg);*/
-  
-/*}*/
-
-/*.two {*/
-  /*  -ms-transform: rotate(15deg); IE 9 */
-   /* Safari 3-8 -webkit-transform: rotate(15deg);
-  transform: rotate(15deg);
-  
-    
-}
-
-.three {
-  -ms-transform: rotate(5deg); /* IE 9 
-  -webkit-transform: rotate(5deg); /* Safari 3-8 
-  transform: rotate(5deg);
-  
-}
-
-.four {
--ms-transform: rotate(-10deg); /* IE 9 
-  -webkit-transform: rotate(-10deg); /* Safari 3-8 
-  transform: rotate(-10deg);
-  
-
-}
-
-
-
-/*.pink {*/
-/*  background-color: #c71eff;*/
-/*}*/
-
-/*.yellow {*/
-/*    background-color: #ffe11e;*/
-/*}*/
-
-/*.red {*/
-/*   background-color: #ff381e;*/
-/*}*/
-
-/*.orange {*/
-/*    background-color: #ff711e;*/
-/*}*/
-
-.div-bottom {
-    margin-bottom: 50px;
+.social-links li a i:hover, .social-links li a i:active {
+    background: #ffb366;
 }
 
 .contact-heading {
@@ -282,35 +236,9 @@ button[type="submit"] {
     border-color: #70cc0d;
 }
 
+/*----------------------------------------------codeinstitute lesson code ends*/
 
-
-/*the grid*/
-
-
-/*.divone {*/
-/*    background-color:LightSkyBlue;*/
-/*}*/
-
-/*.divtwo{*/
-/*    background-color:LightSalmon;*/
-/*}*/
-
-/*.divthree{*/
-/*    background-color:PaleTurquoise;*/
-/*}*/
-
-/*.divfour{*/
-/*    background-color:LightPink;*/
-/*}*/
-
-/*.divfive{*/
-/*    background-color:PaleGreen;*/
-/*}*/
-
-/*.divsix {*/
-/*    background-color:dodgerblue;*/
-/*}*/
-
+/*--------------------------------------------------------------------the grid*/
 
 .cell {
     
@@ -375,15 +303,49 @@ button[type="submit"] {
 	height: 100%;
 }
 
-
 /*------------------------------------------------------------------mediaQueries*/
 
 @media(min-width: 768px){
     .small-only{
         display: none;
     }
+    
+    .cell {
+        font-size: 100px;
+    }
+    
+        .cube {
+    height: 70%;
+    width: 70%;
+    margin: 0 auto;
+}
 }
 
+@media(max-width: 767px){
+    .med-only{
+        display: none;
+    }
+}
+
+@media only screen 
+      and (min-width: 1024px) 
+      and (max-height: 1366px) 
+      and (-webkit-min-device-pixel-ratio: 1.5) {
+          .cell {
+              line-height: 2;
+              font-size: 100px;
+      }
+}
+
+@media(max-width: 991px){
+    .medium-only {
+    display: none;
+     }
+     
+     .cell {
+         line-height: 1.6;
+     }
+}
 
 @media(min-width: 992px){
     .mobile-only {
@@ -434,7 +396,7 @@ button[type="submit"] {
 
     .cell {
 	border: 5px solid white;
-	font-size: 60px;
+	font-size: 50px;
 	line-height: 2;
 	
     }
@@ -457,22 +419,9 @@ button[type="submit"] {
     
 }
 
-@media(max-width: 991px){
-    .medium-only {
-    display: none;
-     }
-     
-     .cell {
-         line-height: 1.6;
-     }
-}
-
-
-@media(max-width: 767px){
-    .med-only{
-        display: none;
+@media(min-width: 1024px){
+    .space {
+        margin-top: 40px;
+        font-size: 20px;
     }
 }
-
-
-

@@ -34,23 +34,38 @@ client’s objective of building a social media following.
 
 <h2>Technologies</h2>
 
-<p>HTML,
-CSS,
-Bootstrap Version 4.3.1,
-FontAwesome Version 4.7,
-GoogleFonts
+<p>*HTML
+*CSS
+*Bootstrap Version 4.3.1,
+*FontAwesome Version 4.7,
+*Google Fonts
 </p>
 
-<h2>Content</h2>
+<h2>Testing</h2>
 
-<p>All copy for the site was written by me.</p>
+<p>The site was tested on various browsers and devices as well as using Google Chrome's web developer tools.</p>
 
-<p></p>
 
 <h2>Deployment</h2>
 
-<p>...</p>
+<p>The site is hosted on Github pages. Originally designed using Cloud9's workspace feature, a git remote was set up and updates
+pushed to the Github repository.</p>
 
 <h2>Credits</h2>
 
-<p>...</p>
+<h3>Media</h3>
+
+<p>All media originates from the Code Institute project repository</p>
+
+<h3>Content</h3>
+
+<p>All copy for the site was written by me.</p>
+
+<h3>Acknowledgements</h3>
+
+<p>HTML and CSS used to design the form and social media links used in the Code Institute CV/resumé tutorial was used with some stylistic changes.</p>
+
+<p>The HTML used in the navbar and form elements was found in the Bootstap documentation found [here](https://getbootstrap.com/docs/4.0/components/navbar/) and [here](https://getbootstrap.com/docs/4.0/components/carousel/) respectively.</p>
+
+<p>The media query for ipads was found in a Stackoverflow thread found [here](https://stackoverflow.com/questions/41978487/correct-media-query-for-ipad-pro).</p>
+
