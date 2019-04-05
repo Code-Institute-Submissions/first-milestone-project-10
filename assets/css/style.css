@@ -41,7 +41,7 @@ body {
     background-image: linear-gradient(to bottom, blue, crimson);
 }
 
-.newReleases {
+.storefront {
     padding: 50px;
     background-image: linear-gradient(to bottom, green, blue);
 }
@@ -77,9 +77,14 @@ h1, h2 {
     margin: 0; /*removes white space below element*/
 }
 
-
 h2 {
+    margin-bottom: 5px;
+    border-bottom: 2px solid lightgray;
+}
+
+h2, h3 {
     font-family: 'Permanent Marker', cursive;
+    color: #fafafa;
 }
 
 video:focus, button:focus {
