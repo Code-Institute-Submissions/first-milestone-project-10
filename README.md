@@ -39,11 +39,16 @@ client’s objective of building a social media following.
 <li>Bootstrap Version 4.3.1</li>
 <li>FontAwesome Version 4.7<li>
 <li>Google Fonts<li>
+</ul>
 </p>
 
 <h2>Testing</h2>
 
 <p>The site was tested on various browsers and devices as well as using Google Chrome's web developer tools.</p>
+The grid at the top of the page is responsive, changing to a 12x12 grid on desktop and a 3 x 9 grid on smaller screens. Media queries hide or reveal grid squares dynamically based on screen-size.
+Each audio player is accompanied by an image and text book containing the relevant song lyrics... responsive changes
+The store front provides a button that is intended to link to a payment page.
+The form section requires a name, email and details of the venue before a request may be submitted. However, the facility to process these requests is not available.
 
 
 <h2>Deployment</h2>
