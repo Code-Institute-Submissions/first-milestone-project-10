@@ -34,11 +34,11 @@ client’s objective of building a social media following.
 
 <h2>Technologies</h2>
 
-<p>*HTML
-*CSS
-*Bootstrap Version 4.3.1,
-*FontAwesome Version 4.7,
-*Google Fonts
+<p><ul><li>HTML</li>
+<li>CSS</li>
+<li>Bootstrap Version 4.3.1</li>
+<li>FontAwesome Version 4.7<li>
+<li>Google Fonts<li>
 </p>
 
 <h2>Testing</h2>

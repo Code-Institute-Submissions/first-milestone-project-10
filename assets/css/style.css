@@ -68,6 +68,7 @@ footer {
     padding: 0;
 }
 
+
 /*-------------------------------------------------------------------elements */
 
 .logo {
@@ -119,8 +120,8 @@ figure, p {
 
 figure {
     margin: 10px;
-    border: 5px solid white;
-    background-color: white;
+    border: 5px solid #fafafa;
+    background-color: #fafafa;
 }
 
 #band>div {
@@ -169,6 +170,7 @@ img {
 
 
 .action {
+    display: block;
     font-size: 45px;
     font-family: "Permanent Marker", cursive;
     color: white;
@@ -178,9 +180,11 @@ img {
 }
 
 .action:hover, .action:active {
-    background-color: white;
-    color: black;
+    background-color: #fafafa;
+    color: #1a1a1a;
+    text-decoration: none;
 }
+
 
 audio {
     width: 100%;
