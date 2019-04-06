@@ -432,3 +432,22 @@ button[type="submit"] {
               font-size: 100px;
       }
 }
+
+@media only screen and (min-width: 1367px) {
+    .cell {
+        
+        line-height: 3.75;
+    }
+    
+    .storefront {
+        padding: 50px 50px 150px 50px;
+    }
+    
+    .space {
+        margin-top: 200px;
+    }
+    
+    .space-two {
+        margin-top: 100px;
+    }
+}
