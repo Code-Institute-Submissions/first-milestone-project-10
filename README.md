@@ -47,12 +47,12 @@ Navbar animation. Backend. Pictures from performances where the band has been hi
 
 ## Technologies Used
 
-HTML
-CSS
-Bootstrap Version 4.3.1
-FontAwesome Version 4.7
-Google Fonts
-JQuery (specifically for navbar functionality). 
+- HTML
+- CSS
+- Bootstrap Version 4.3.1
+- FontAwesome Version 4.7
+- Google Fonts
+- JQuery (specifically for navbar functionality). 
 
 ## Testing
 
@@ -63,7 +63,7 @@ The site was tested on various browsers and devices as well as using Google Chro
 
 ## Deployment
 
-The site is hosted on Github pages at this href="https://stiofaneimeid.github.io/first-milestone-project/" target="_blank">address</a>. Originally designed using Cloud9's workspace feature, a git remote was set up in the Cloud9 workspace and updates pushed to the Github repository. 
+The site is hosted on Github pages at this [address](https://stiofaneimeid.github.io/first-milestone-project/ "git repo"). Originally designed using Cloud9's workspace feature, a git remote was set up in the Cloud9 workspace and updates pushed to the Github repository. 
 
 How to run code locally? “To run the code locally, clone this repository directly in to an editor by pasting git clone … into the terminal. To remove the repository, type “git remote rm origin” in to the terminal.
 
@@ -75,13 +75,13 @@ All media originates from the Code Institute project repository.
 
 ### Content
 
-All copy for the site was written by me; information sourced from Wikipedia Article on Monkees found here.. The wireframes were also drawn by me. Lyrics are by The Monkees. 
+All copy for the site was written by me; information sourced from Wikipedia Article on Monkees found [here](https://en.wikipedia.org/wiki/The_Monkees "Monkees wikipage"). The wireframes were also drawn by me. Lyrics are by The Monkees. 
 
 ### Acknowledgements
 
 HTML and CSS used to design the form and social media links used in the Code Institute CV/resumé tutorial was used with some stylistic changes.
 
 The HTML used in the navbar and form elements was found in the Bootstap documentation found
-<a href="https://getbootstrap.com/docs/4.0/components/navbar/" target="_blank">here</a> and <a href="https://getbootstrap.com/docs/4.0/components/carousel/" target="_blank">here</a>, respectively.
+[here](https://getbootstrap.com/docs/4.0/components/navbar/ "navbar") and [here](https://getbootstrap.com/docs/4.0/components/carousel/ "carousel"), respectively.
 
-The media query for ipads was found in a Stackoverflow thread found <a href="https://stackoverflow.com/questions/41978487/correct-media-query-for-ipad-pro" target="_blank">here.
+The media query for ipads was found in a Stackoverflow thread found [here](https://stackoverflow.com/questions/41978487/correct-media-query-for-ipad-pro "stack").
