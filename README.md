@@ -80,15 +80,13 @@ Features left to implement include a navbar animation whereby the menu button ch
 
 The site was tested on various browsers and devices as well as using Google Chrome's web developer tools. 
 
-The grid at the top of the page is responsive, changing to a 6x6 grid on desktop and a 8x3 grid on smaller screens. Media queries hide or reveal grid squares dynamically based on screen-size. Issues arose with the letters spelling out "Monkees!" contained in certain squares, requiring me to add properties such as line-height and font-size to make sure the letters fit cells neatly without distorting them, along with media queries for further necessary adjustments relative to screen size. 
+The grid at the top of the page is responsive, changing to a 6x6 grid on desktop and a 8x3 grid on smaller screens. Media queries hide or reveal grid squares dynamically based on screen-size. Issues arose with the letters spelling out "Monkees!" contained in certain squares, requiring me to add properties such as line-height and font-size to make sure the letters fit cells neatly without distorting them, along with media queries for further necessary adjustments relative to screen size. VW and VH units were added to make the grid responsive however this made other sections overlap and so had to be removed
 
 In addition, as the user tries to resize the screen on a larger screen, she will see the grid snap from the larger to the smaller version. However, I noticed the grid became somewhat distorted as cells containing letters and images squeezed empty cells in order for the grid to occupy the entire screen. I applied media queries to make the grid change to its smaller version at a higher width to avoid this. While this worked for larger screens, I found the grid changed too quickly on laptop screens. I therefore had to allow some grid distortion on larger screens to preserve the user’s visual experience on laptop along with certain tablets to avoid depriving them of seeing the larger grid altogether.
 
 The form section requires a name, email and details of the venue before a request may be submitted. While the user may fail to provide adequate details regarding the venue, this is a quality control issue that cannot be addressed by HTML. In any event, any lack of clarity can be provided through further correspondence between the band and the user over email. 
 
 Each link contained in the navbar(excluding the social media icons) work as intended, although if the user refreshes the page, she will be taken to the last section she jumped to rather than the top of the page. The section linked to will be included in the URL that is refreshed. As such, the user will have to manually set the URL in the address bar to return to the top of the page. 
-
-In general, the site content stretched on larger screens to an unsightly degree. In order to remedy this, a included a media query that added padding to the sides of each section to keep the content nice and compact and deliver a better visual experience to the user. 
 
 ## Deployment
 
