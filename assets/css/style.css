@@ -4,7 +4,6 @@ html,body
     height: 100%;
     margin: 0px;
     padding: 0px;
-    overflow-x: hidden; 
 }
 
 body {
@@ -336,11 +335,6 @@ button[type="submit"] {
 
     .mobile-only {
         display: none;
-    }
-    
-    .cover {
-    height: 100vh;
-	width: 100vw;
     }
     
     .container-one {
