@@ -4,7 +4,7 @@
 
 The Monkees are a band that doesn't take itself too seriously. I sought to celebrate that with the design of the website. It’s bright and colourful in an attempt to capture the attitude and aesthetic of the video clip contained in the Github repo assets.
 
-The site allows the user to engage with the band, through listening to their music, purchasing merchandise and booking the band for live performances. The website is intended to be the one-stop shop and digital home of the band. 
+The site allows the user to engage with the band, through listening to their music, purchasing merchandise and booking the band for live performances. The website is intended to be the one stop shop and digital home of the band. 
 
 ## UX
 
