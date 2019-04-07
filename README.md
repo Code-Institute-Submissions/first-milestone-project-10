@@ -46,7 +46,7 @@ The navbar, the collapsed version on smaller screens and the drop-down menu were
 #### Cover
 
 The cover is a CSS grid that is 8x3 on smaller devices and 6x6 on larger devices.
-Certain squares or “cells” also spell out “Monkees!” The cells needed to make the grid change from 3x8 to 6x6 are set to “display: none” in order to display the grid properly on mobile.  A media query sets the property of the cell to “display: inline” on larger screens. In addition, in order for the letter order to make sense, some squares containing letters are mobile only to be replaced with squares containing letters that are medium-only.
+Certain squares or “cells” also spell out “Monkees!” The cells needed to make the grid change from 8x3 to 6x6 are set to “display: none” in order to display the grid properly on mobile.  A media query sets the property of the cell to “display: inline” on larger screens. In addition, in order for the letter order to make sense, some squares containing letters are mobile only to be replaced with squares containing letters that are medium-only.
 
 #### Discography
 
