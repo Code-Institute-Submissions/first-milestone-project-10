@@ -70,12 +70,13 @@ Features left to implement include a navbar animation whereby the menu button ch
 
 ## Technologies Used
 
-- HTML
-- CSS
-- Bootstrap Version 4.3.1
-- FontAwesome Version 4.7
-- Google Fonts
-- JQuery (specifically for navbar functionality). 
+1. HTML
+2. CSS
+3. Bootstrap Version 4.3.1
+4. FontAwesome Version 4.7
+5. Google Fonts
+6. JQuery 
+  * Used specifically for navbar functionality. 
 
 ## Testing
 
