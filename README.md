@@ -8,7 +8,7 @@ The site provides a compelling way to engage with the band, through listening to
 
 ## UX
 
- According to the brief, the primary target audiences are “fans who wish to use the site and to see and hear clips from their back catalogue
+  According to the brief, the primary target audiences are “fans who wish to use the site and to see and hear clips from their back catalogue
 and any new material as it becomes available.” In addition, the client requested the site showcase their music and allow fans to book the band
 to perform at weddings and parties.
 
@@ -18,6 +18,16 @@ to the screen size to provide the best user experience possible. My goal with th
 The goal of the UX is to provide a seamless experience for the user that is a potential fan or even an old one. I made an effort to capture the look and feel of
 The Monkees in the design of the website in a way that was timeless yet took advantage of modern technology to provide an accessible user experience. 
 A booking form is found at the end of the site, a CTA, and links to social media (inactive) are found in the navigation bar and footer of the website in order to reach the client’s objective of building a social media following. 
+
+[Wireframe 1](https://github.com/stiofanEimeid/first-milestone-project/blob/master/wireframes/wireframe1.jpg "wireframe1") provides intial conceptual designs while [wireframe 2](https://github.com/stiofanEimeid/first-milestone-project/blob/master/wireframes/wireframe2.jpg "wireframe2") illustrates the grid concept. 
+
+### User stories
+
+As a user, if I want to book The Monkees, I need to provide a name, a valid email address and a short description of the venue at which I wish the band to perform.
+
+As the user tries to resize the screen on a larger screen, she will see the grid snap from the larger to the smaller version.
+
+As a user, if I want to jump to a different section of the page, I can do so at any time with the fixed navbar. 
 
 ## Creative Process
 
@@ -31,19 +41,32 @@ Finally, the background of the site consisted of a colour gradient with one colo
 
 ### Existing Features
 
-Navbar
+#### Navbar
 
-Cover
+The navbar, the collapsed version on smaller screens and the drop-down menu were pulled from the Bootstrap documentation.  Social media icons were included on the right-hand side to allow users to access the band on social media quickly and easily. The navbar is fixed to the screen, accessible at all times as the user scrolls to allow for fluid and easy navigation throughout the page. 
 
-Discography
+#### Cover
 
-Carousel
+The cover is a CSS grid that is 3x8 on smaller devices and 6x12 on larger devices.
+Certain squares or “cells” also spell out “Monkees!” The cells needed to make the grid change from 3x8 to 6x12 are set to “display: none” in order to display the grid properly on mobile.  A media query sets the property of the cell to “display: inline” on larger screens. In addition, in order for the letter order to make sense, some squares containing letters are mobile only to be replaced with squares containing letters that are medium-only.
 
-Form
+#### Discography
+
+The discography section contains four songs in an audio-player contained in a figure element along with an image. These elements are accompanied by a h3 that provides the song name along with lyrics from the song with a white font-colour in order to stand out against the background. On smaller screens, the order is as follows: title, figure and lyrics. On larger screens, figures alternate between the right and left of the screen with their respective title and lyrics to their side. This was accomplished by making two versions of each group of title, and lyrics; with one or the other appearing or disappearing based on the screen size to maintain the proper arrangement.
+
+The carousel code was also taken from the Bootstrap documentation, occupying half the width of the screen on larger screens and the full -width of the screen on smaller devices using Bootstrap’s grid functionality.
+
+#### Storefront
+
+The storefront provides a button that is intended to link to a payment page that is currently inactive. The button acts as a "call-to-action", drawing the user's attention and urging them to act. 
+
+#### Form
+
+The form provides three fields that must be completed because of the required keyword included in the HTML otherwise the form will not submit. 
 
 ### Features Left to Implement
 
-Navbar animation. Backend. Pictures from performances where the band has been hired from the website to play. 
+Features left to implement include a navbar animation whereby the menu button changes to an “x” when active and backend facilities for processing forms. I would also like to add more content to the storefront and watch video sections and perhaps include a gallery filled with pictures of performances where The Monkees have been hired by users to play. 
 
 ## Technologies Used
 
@@ -56,16 +79,23 @@ Navbar animation. Backend. Pictures from performances where the band has been hi
 
 ## Testing
 
-The site was tested on various browsers and devices as well as using Google Chrome's web developer tools. The grid at the top of the page is responsive, changing to a 12x12 grid on desktop and a 3x9 grid on smaller screens. Media queries hide or reveal grid squares dynamically based on screen-size. Issues arose with the letters spelling out "Monkees!" contained in certain squares, requiring me to add properties such as line-height and font-size to make sure the letters fit cells neatly without distorting them, along with media queries for further necessary adjustments relative to screen size. 
- Each audio-player is accompanied by an image and text -box containing the relevant song lyrics. This section is responsive in that the elements containing lyrics appear before or after the audio track using the display property with media queries in order to provide a visual experience appropriate to the screen-size used
- The storefront provides a button that is intended to link to a payment page that is currently inactive. The button acts as a "call-to-action", drawing the user's attention and urging them to act.
- The form section requires a name, email and details of the venue before a request may be submitted. However, the facility to process these requests is not available. 
+The site was tested on various browsers and devices as well as using Google Chrome's web developer tools. 
+
+The grid at the top of the page is responsive, changing to a 12x12 grid on desktop and a 3x9 grid on smaller screens. Media queries hide or reveal grid squares dynamically based on screen-size. Issues arose with the letters spelling out "Monkees!" contained in certain squares, requiring me to add properties such as line-height and font-size to make sure the letters fit cells neatly without distorting them, along with media queries for further necessary adjustments relative to screen size. 
+
+In addition, as the user tries to resize the screen on a larger screen, she will see the grid snap from the larger to the smaller version. However, I noticed the grid became somewhat distorted as cells containing letters and images squeezed empty cells in order for the grid to occupy the entire screen. I applied media queries to make the grid change to its smaller version at a higher width to avoid this. While this worked for larger screens, I found the grid changed too quickly on laptop. I therefore had to allow some grid distortion on larger screens to preserve the user’s visual experience on laptop along with certain tablets to avoid depriving them of seeing the larger grid altogether.
+
+The form section requires a name, email and details of the venue before a request may be submitted. While the user may fail to provide adequate details regarding the venue, this is a quality control issue that I don’t see can be addressed by HTML. In any event, any lack of clarity can be provided through further correspondence between the band and the client over email. 
+
+Each link contained in the navbar(excluding the social media icons) work as intended, although if the user refreshes the page, she will be taken to the last section she jumped to rather than the top of the page. The section linked to will be included in the URL that is refreshed. As such, the user will have to manually set the URL in the address bar to return to the top of the page. 
+
+In general, the site content stretched on larger screens to an unsightly degree. In order to remedy this, a included a media query that added padding to the sides of each section to keep the content nice and compact and deliver a better visual experience to the user. 
 
 ## Deployment
 
 The site is hosted on Github pages at this [address](https://stiofaneimeid.github.io/first-milestone-project/ "git repo"). Originally designed using Cloud9's workspace feature, a git remote was set up in the Cloud9 workspace and updates pushed to the Github repository. 
 
-How to run code locally? “To run the code locally, clone this repository directly in to an editor by pasting git clone … into the terminal. To remove the repository, type “git remote rm origin” in to the terminal.
+In order to run the code locally please clone this repository directly in to an editor by pasting `git clone https://github.com/stiofanEimeid/first-milestone-project.git` into the terminal. To remove the repository, type “git remote rm origin” in to the terminal.
 
 ## Credits
 

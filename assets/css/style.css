@@ -352,7 +352,7 @@ button[type="submit"] {
          line-height: 1.6;
      }
      
-          .action {
+    .action {
         margin-bottom: 50px;
     }
 
@@ -363,7 +363,6 @@ button[type="submit"] {
     .cover {
     height: 100vh;
 	width: 100vw;
-	
     }
     
     .container-one {
