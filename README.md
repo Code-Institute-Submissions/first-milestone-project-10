@@ -12,11 +12,9 @@ According to the brief, the primary target audiences are “fans who wish to use
 and any new material as it becomes available.” In addition, the client requested the site showcase their music and allow fans to book the band
 to perform at weddings and parties.
 
-The site was developed to be mobile-first. I used the basic CSS grid along with Bootstrap's grid to provide a site whose elements adapted
-to the screen size to provide the best user experience possible. My goal with the site was to deliver this functionality tied to an aesthetic that conveyed the band’s personality – colourful, playful and energetic. The cover section is the first part of the site the user sees; it a colourful grid featuring pictures of each individual member of a band that is responsive, snapping to a smaller size on mobile and tablet devices.
+My ultimate goal with the site was to deliver this functionality tied to an aesthetic that conveyed the band’s personality – colourful, playful and energetic. The site was developed to be mobile-first. I used the basic CSS grid along with Bootstrap's grid to provide a site whose elements adapted
+to the screen size to provide the best user experience possible. The cover section is the first part of the site the user sees; it a colourful grid featuring pictures of each individual member of a band that is responsive, snapping to a smaller size on mobile and tablet devices.
 
-The goal of the UX is to provide a seamless experience for the user that is a potential fan or even an old one. I made an effort to capture the look and feel of
-The Monkees in the design of the website in a way that was timeless yet took advantage of modern technology to provide an accessible user experience. 
 A booking form is found at the end of the site, a "call-to-action (CTA)"", and links to social media (inactive) are found in the navigation bar and footer of the website in order to fulfil the client’s goal of building a social media following. 
 
 [Wireframe 1](https://github.com/stiofanEimeid/first-milestone-project/blob/master/wireframes/wireframe1.jpg "wireframe1") provides intial conceptual designs while [wireframe 2](https://github.com/stiofanEimeid/first-milestone-project/blob/master/wireframes/wireframe2.jpg "wireframe2") illustrates the grid concept. 
