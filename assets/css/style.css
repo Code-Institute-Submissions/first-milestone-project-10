@@ -320,7 +320,7 @@ button[type="submit"] {
 }
 
 
-@media only screen and (min-width: 992px) and (min-height: 660px){
+@media only screen and (min-width: 992px) {
     .medium-only {
     display: inline;
      }
@@ -341,7 +341,7 @@ button[type="submit"] {
 	/*display: grid;*/
 	background-color: blue;
 	width: 50%;
-	height: 50%;
+	height: auto;
 	grid-template-columns: repeat(3, 1fr);
 	grid-template-rows: repeat(3, 1fr);
     }
@@ -350,7 +350,7 @@ button[type="submit"] {
 	/*display: grid;*/
 	background-color: red;
 	width: 50%;
-	height: 50%;
+	height: auto;
 	grid-template-columns: repeat(3, 1fr);
 	grid-template-rows: repeat(3, 1fr);
     }
@@ -359,7 +359,7 @@ button[type="submit"] {
 	/*display: grid;*/
 	background-color: green;
 	width: 50%;
-	height: 50%;
+	height: auto;
 	grid-template-columns: repeat(3, 1fr);
 	grid-template-rows: repeat(3, 1fr);
     }
@@ -368,7 +368,7 @@ button[type="submit"] {
 	/*display: grid;*/
 	background-color: yellow;
 	width: 50%;
-	height: 50%;
+	height: auto;
 	grid-template-columns: repeat(3, 1fr);
 	grid-template-rows: repeat(3, 1fr);
     }
@@ -377,7 +377,6 @@ button[type="submit"] {
 	border: 5px solid white;
 	font-size: 50px;
 	line-height: 2;
-	
     }
 
     .divone {
