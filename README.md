@@ -74,6 +74,7 @@ Features left to implement include a navbar animation whereby the menu button ch
 4. FontAwesome Version 4.7
 5. Google Fonts
 6. JQuery (Used specifically for navbar functionality.)
+7. Popper.js(Also used specifically for navbar functionality.)
 
 ## Testing
 
