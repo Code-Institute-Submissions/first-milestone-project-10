@@ -75,8 +75,7 @@ Features left to implement include a navbar animation whereby the menu button ch
 3. Bootstrap Version 4.3.1
 4. FontAwesome Version 4.7
 5. Google Fonts
-6. JQuery 
-  * Used specifically for navbar functionality. 
+6. JQuery (Used specifically for navbar functionality.)
 
 ## Testing
 
