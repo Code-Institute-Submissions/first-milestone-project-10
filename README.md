@@ -64,7 +64,7 @@ The form provides three fields that must be completed because of the required ke
 
 ### Features Left to Implement
 
-Features left to implement include a navbar animation whereby the menu button changes to an “x” when active and backend facilities for processing forms. I would also like to add more content to the storefront and watch video sections and perhaps include a gallery filled with pictures of performances where The Monkees have been hired by users to play. 
+Features left to implement include a navbar animation whereby the menu button changes to an “x” when active and backend facilities for processing forms. I would also like to add more content to the storefront and watch video sections and perhaps include a gallery filled with pictures of performances where The Monkees have been hired by users to play. Finally, a page that allows a user to enter payment details when they click to buy something from the store.
 
 ## Technologies Used
 
