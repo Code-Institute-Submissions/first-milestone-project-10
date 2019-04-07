@@ -15,7 +15,7 @@ to perform at weddings and parties.
 My ultimate goal with the site was to deliver this functionality tied to an aesthetic that conveyed the band’s personality – colourful, playful and energetic. The site was developed to be mobile-first. I used the basic CSS grid along with Bootstrap's grid to provide a site whose elements adapted
 to the screen size to provide the best user experience possible. The cover section is the first part of the site the user sees; it a colourful grid featuring pictures of each individual member of a band that is responsive, snapping to a smaller size on mobile and tablet devices.
 
-A booking form is found at the end of the site, a "call-to-action (CTA)"", and links to social media (inactive) are found in the navigation bar and footer of the website in order to fulfil the client’s goal of building a social media following. 
+A booking form is found at the end of the site while links to social media (inactive) are found in the navigation bar and footer of the website in order to fulfil the client’s goal of building a social media following. 
 
 [Wireframe 1](https://github.com/stiofanEimeid/first-milestone-project/blob/master/wireframes/wireframe1.jpg "wireframe1") provides intial conceptual designs while [wireframe 2](https://github.com/stiofanEimeid/first-milestone-project/blob/master/wireframes/wireframe2.jpg "wireframe2") illustrates the grid concept. 
 
