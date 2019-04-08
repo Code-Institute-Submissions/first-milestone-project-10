@@ -62,8 +62,8 @@
         	<div class="container-one">
         		<div class="cell divone"><img class="gridimg" src="assets/images/dj.jpg" alt="Davy Jones"></div>
         		<div class="cell diveight">M</div>
-        		<div class="cell divten medium-only"></div>
-        		<div class="cell divten mobile-only">O</div>
+        		<div class="cell divten medium-only"></div> <!--These squares only appear on larger screens to preserve integrity of mobile-grid-->
+        		<div class="cell divten mobile-only">O</div> <!--These squares only appear on mobile to maintain the correct order of letters for a given grid-->
         		<div class="cell divseven medium-only">K</div>
         		<div class="cell divfive medium-only"></div>
         		<div class="cell divsix medium-only"></div>
@@ -220,7 +220,7 @@
                 </figure> 
                 </div>
     		</div>
-    		<div class="col-12 small-only">
+    		<div class="col-12 small-only"> <!--this section alternates with med-only sections to maintain proper order of sections on a given screen-->
     		        <div class="blurb">  <p>"Oh, I could hide 'neath the wings
                         Of the bluebird as she sings
                         The six-o'clock alarm would never ring
@@ -466,9 +466,9 @@
             <div class="icons med-only"><span class="logo">The Monkees</span></div>
             <div class="icons"><span>@copyright 2019</span></div>
     </footer>
+    
 <script src="./libraries/jquery.min.js"></script>
 <script src="./libraries/bootstrap.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-
 </body>
 </html>
