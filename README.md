@@ -45,7 +45,7 @@ The navbar, the collapsed version on smaller screens and the drop-down menu were
 
 #### Cover
 
-The cover is a CSS grid that is 8x3 on smaller devices and 6x6 on larger devices.
+The cover is a CSS grid that is 8x3 on smaller devices and 6x6 on larger devices. Each cell is a square with sides 150px long. The grid was originally meant to fit the screen width but this wasn't possible without stretching the squares. 
 Certain squares or “cells” also spell out “Monkees!” The cells needed to make the grid change from 8x3 to 6x6 are set to “display: none” in order to display the grid properly on mobile.  A media query sets the property of the cell to “display: inline” on larger screens. In addition, in order for the letter order to make sense, some squares containing letters are mobile only to be replaced with squares containing letters that are medium-only.
 
 #### Discography
@@ -57,6 +57,7 @@ The carousel code was also taken from the Bootstrap documentation, occupying hal
 #### Storefront
 
 The storefront provides a button that is intended to link to a payment page that is currently inactive. The button acts as a "call-to-action", drawing the user's attention and urging them to act. 
+
 
 #### Form
 
@@ -88,6 +89,8 @@ The form section requires a name, email and details of the venue before a reques
 
 Each link contained in the navbar(excluding the social media icons) work as intended, although if the user refreshes the page, she will be taken to the last section she jumped to rather than the top of the page. The section linked to will be included in the URL that is refreshed. As such, the user will have to manually set the URL in the address bar to return to the top of the page. 
 
+In the absence of a page to process payments, a modal appears when the button is clicked telling the user that the store is currently unavailable.
+
 ## Deployment
 
 The site is hosted on Github pages at this [address](https://stiofaneimeid.github.io/first-milestone-project/ "git repo"). Originally designed using Cloud9's workspace feature, a git remote was set up in the Cloud9 workspace and updates pushed to the Github repository. 
@@ -109,6 +112,7 @@ All copy for the site was written by me; information sourced from Wikipedia Arti
 HTML and CSS used to design the form and social media links used in the Code Institute CV/resumé tutorial was used with some stylistic changes.
 
 The HTML used in the navbar and form elements was found in the Bootstap documentation found
-[here](https://getbootstrap.com/docs/4.0/components/navbar/ "navbar") and [here](https://getbootstrap.com/docs/4.0/components/carousel/ "carousel"), respectively.
+[here](https://getbootstrap.com/docs/4.0/components/navbar/ "navbar") and [here](https://getbootstrap.com/docs/4.0/components/carousel/ "carousel"), respectively. The code used for modal was taken from this [page](https://getbootstrap.com/docs/4.0/components/modal/ "modal examples").
 
 The media query for ipads was found in a Stack Overflow thread found [here](https://stackoverflow.com/questions/41978487/correct-media-query-for-ipad-pro "stack").
+
