@@ -8,12 +8,14 @@ The site allows the user to engage with the band, through listening to their mus
 
 ## UX
 
-According to the brief, the primary target audiences are “fans who wish to use the site and to see and hear clips from their back catalogue
+According to the brief, the primary target audience is “fans who wish to use the site and to see and hear clips from their back catalogue
 and any new material as it becomes available.” In addition, the client requested the site showcase their music and allow fans to book the band
 to perform at weddings and parties.
 
-My ultimate goal with the site was to deliver this functionality tied to an aesthetic that conveyed the band’s personality – colourful, playful and energetic. The site was developed to be mobile-first. I used the basic CSS grid along with Bootstrap's grid to provide a site whose elements adapted
-to the screen size to provide the best user experience possible. The cover section is the first part of the site the user sees; it a colourful grid featuring pictures of each individual member of a band that is responsive, snapping to a smaller size on mobile and tablet devices.
+My ultimate goal with the site was to deliver this functionality tied to an aesthetic that conveyed the band’s personality – colourful, playful and energetic.
+The site was developed to be mobile-first. I used the basic CSS grid along with Bootstrap's grid to provide a site whose elements adapted
+to the screen size to provide the best user experience possible. The cover section is the first part of the site the user sees; it a colourful grid featuring
+pictures of each individual member of a band that is responsive, snapping to a smaller size on mobile and tablet devices.
 
 A booking form is found at the end of the site while links to social media (inactive) are found in the navigation bar and footer of the website in order to fulfil the client’s goal of building a social media following. 
 
@@ -23,15 +25,20 @@ A booking form is found at the end of the site while links to social media (inac
 
 As a user, if I want to book The Monkees, I need to provide a name, a valid email address and a short description of the venue at which I wish the band to perform.
 
-If the user tries to resize the screen on a larger screen, she will see the grid snap from the larger to the smaller version.
+If I try to resize the screen on a larger screen, I will see the grid snap from the larger to the smaller version.
 
-As a user, if I want to jump to a different section of the page, I can do so at any time with the fixed navbar. 
+If I want to jump to a different section of the page, I can do so at any time with the fixed navbar. 
 
 ## Creative Process
 
-The idea for the grid came midway through the project in what was an organic creative process. As I tried and tested ideas I gained a better idea of what worked and how I wanted it to look. Initially the cover was a simple black and white image but this was rather flat and didn’t convey the right message. It wasn't a good representation of the band nor the best use of the assets provided. 
+The idea for the grid came midway through the project in what was an organic creative process. As I tried and tested ideas I gained a better idea of what worked and how I wanted it to look. Initially, the cover was a simple black and white image
+but this was rather flat and didn’t convey the right message. It wasn't a good representation of the band nor the best use of the assets provided. 
 
-Another section initially used to introduce the band members individually was repurposed to showcase individual tracks for the user to listen to, combined with a text box containing song lyrics. Initially I had the tracks grouped together as seen in section two of [wireframe 2](https://github.com/stiofanEimeid/first-milestone-project/blob/master/wireframes/wireframe2.jpg "wireframe2"); however, I felt this broke the flow of the page. Also, it did not strike the right balance between style and structure and so it had to be changed. 
+Another section initially used to introduce the band members individually was repurposed to showcase individual tracks for the user
+to listen to, combined with a text box containing song lyrics. Initially I had the tracks grouped together as seen in section two
+of [wireframe 2](https://github.com/stiofanEimeid/first-milestone-project/blob/master/wireframes/wireframe2.jpg "wireframe2");
+however, I felt this broke the flow of the page. Also, it did not strike the right balance between style and structure
+and so it had to be changed. 
 
 Finally, the background of the site consisted of a colour gradient with one colour for each section transitioning to the next to provide a seamless experience for the user as she scrolled through the site. Ideas evolved and in some cases combined throughout the project. The site is the culmination of that process.
 
@@ -41,16 +48,20 @@ Finally, the background of the site consisted of a colour gradient with one colo
 
 #### Navbar
 
-The navbar, the collapsed version on smaller screens and the drop-down menu were pulled from the Bootstrap documentation.  Social media icons were included on the right-hand side to allow users to access the band on social media quickly and easily. The navbar is fixed to the screen, accessible at all times as the user scrolls to allow for fluid and easy navigation throughout the site. 
+The navbar, the collapsed version on smaller screens and the drop-down menu were pulled from the Bootstrap documentation.  Social media icons were included on the right-hand side to allow users to access the band on social media quickly and easily. The navbar is fixed to the screen, accessible at all times as the user scrolls to allow for easy navigation throughout the site. 
 
 #### Cover
 
 The cover is a CSS grid that is 8x3 on smaller devices and 6x6 on larger devices. Each cell is a square with sides 150px long.
-Certain squares or “cells” also spell out “Monkees!” The cells needed to make the grid change from 8x3 to 6x6 are set to “display: none” in order to display the grid properly on mobile.  A media query sets the property of the cell to “display: inline” on larger screens. In addition, in order for the letter order to make sense, some squares containing letters are mobile only to be replaced with squares containing letters that are medium-only.
+Certain squares or “cells” also spell out “Monkees!” The cells needed to make the grid change from 8x3 to 6x6 are set to “display: none”
+in order to display the grid properly on mobile.  A media query sets the property of the cell to “display: inline” on larger screens.
+In addition, in order for the letter order to make sense, some squares containing letters are mobile only to be replaced with squares containing letters that are medium-only.
 
 #### Discography
 
-The discography section contains four songs in an audio-player contained in a figure element along with an image. These elements are accompanied by a h3 element that provides the song name along with lyrics from the song with a white font-colour in order to stand out against the background. On smaller screens, the order is as follows: title, figure and lyrics. On larger screens, figures alternate between the right and left of the screen with their respective title and lyrics to their side. This was accomplished by making two versions of each group of title, and lyrics; with one or the other appearing or disappearing based on the screen size to maintain the proper arrangement.
+The discography section contains four songs in an audio-player contained in a figure element along with an image. These elements are accompanied by a h3 element that provides the song name along with lyrics from the song with a white font-colour in order to stand out against the background.
+On smaller screens, the order is as follows: title, figure and lyrics. On larger screens, figures alternate between the right and left of the screen with their respective title and lyrics to their side. This was accomplished by making two versions of each group of title, and lyrics;
+with one or the other appearing or disappearing based on the screen size to maintain the proper arrangement.
 
 The carousel code was also taken from the Bootstrap documentation, occupying half the width of the screen on larger screens and the full-width of the screen on smaller devices using Bootstrap’s grid functionality.
 
@@ -58,14 +69,13 @@ The carousel code was also taken from the Bootstrap documentation, occupying hal
 
 The storefront provides a button that is intended to link to a payment page that is currently inactive. The button acts as a "call-to-action", drawing the user's attention and urging them to act. 
 
-
 #### Form
 
 The form provides three fields that must be completed because of the required keyword included in the HTML otherwise the form will not submit. 
 
 ### Features Left to Implement
 
-Features left to implement include a navbar animation whereby the menu button changes to an “x” when active and backend facilities for processing forms. I would also like to add more content to the storefront and watch video sections and perhaps include a gallery filled with pictures of performances where The Monkees have been hired by users to play. Finally, a page that allows a user to enter payment details when they click to buy something from the store.
+Features left to implement include a navbar animation whereby the menu button changes to an “x” when active and backend facilities for processing forms. I would also like to add more content to the storefront and watch video sections and perhaps include a gallery filled with pictures of performances where The Monkees have been hired by users to play. Finally, I would like to build a page that allows a user to enter payment details when they click to buy something from the store.
 
 ## Technologies Used
 
@@ -93,7 +103,7 @@ With regard to the storefront section, in the absence of a page to process payme
 
 The site is hosted on Github pages at this [address](https://stiofaneimeid.github.io/first-milestone-project/ "git repo"). Originally designed using Cloud9's workspace feature, a git remote was set up in the Cloud9 workspace and updates pushed to the Github repository. 
 
-In order to run the code locally please clone this repository directly in to an editor by pasting `git clone https://github.com/stiofanEimeid/first-milestone-project.git` into the terminal. To remove the repository, type “git remote rm origin” in to the terminal.
+In order to run the code locally, please clone this repository directly in to an editor by pasting `git clone https://github.com/stiofanEimeid/first-milestone-project.git` into the terminal. To remove the repository, type “git remote rm origin” in to the terminal.
 
 ## Credits
 
