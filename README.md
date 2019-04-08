@@ -35,7 +35,7 @@ The idea for the grid came midway through the project in what was an organic cre
 but this was rather flat and didn’t convey the right message. It wasn't a good representation of the band nor the best use of the assets provided. 
 
 Another section initially used to introduce the band members individually was repurposed to showcase individual tracks for the user
-to listen to, combined with a text box containing song lyrics. Initially I had the tracks grouped together as seen in section two
+to listen to, combined with a text box containing song lyrics. At first I had the tracks grouped together as seen in section two
 of [wireframe 2](https://github.com/stiofanEimeid/first-milestone-project/blob/master/wireframes/wireframe2.jpg "wireframe2");
 however, I felt this broke the flow of the page. Also, it did not strike the right balance between style and structure
 and so it had to be changed. 
