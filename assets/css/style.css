@@ -446,6 +446,12 @@ button[type="submit"] {
     }
 }
 
+
+@media only screen and (min-width: 1440px) {
+    .space {
+        margin-top: 100px;
+    }
+}
 @media only screen and (min-width: 2000px) {
 
     .about, .watch, .storefront, .form, .disc {
@@ -453,8 +459,4 @@ button[type="submit"] {
         padding-right: 500px;
     }
     
-    .space {
-        /*margin-top: 140px;*/
-    }
-
 }
